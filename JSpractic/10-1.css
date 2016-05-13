@@ -1,0 +1,17 @@
+
+#container {
+    margin: 20px auto 0;
+}
+
+.div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    background-color: #bc9ddf;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    top: 40px;
+    color: white;
+}
