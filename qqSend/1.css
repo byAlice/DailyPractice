@@ -1,0 +1,118 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#container {
+    position: relative;
+    text-align: center;
+    background: url(img/iphone.png) no-repeat;
+    width: 260px;
+    height: 550px;
+}
+
+#content {
+    overflow-x: hidden;
+    position: absolute;
+    text-align: left;
+    top: 76px;
+    left: 20px;
+    width: 207px;
+    height: 334px;
+    background-color: #F5DCBE;
+}
+
+#field {
+    left: 20px;
+    top: 410px;
+    width: 207px;
+    height: 40px;
+    position: absolute;
+    background-color: #F5DCBE;
+    padding-top: 10px;
+}
+
+#text1 {
+    margin-left: 40px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+}
+
+#btn1 {
+    border: none;
+    border-radius: 4px;
+    width: 35px;
+    height: 30px;
+    margin-right: 4px;
+    background: #f0f0f0;
+}
+
+#change1 {
+    position: absolute;
+    float: left;
+    background: #FFF;
+    border: solid 1px transparent;
+    left: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#btn1:hover {
+    cursor: pointer;
+}
+
+#change1:hover {
+    cursor: pointer;
+}
+
+#ul1 {
+    list-style-type: none;
+}
+
+.sp1, .sp2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    word-break: break-all;
+    display: inline-block;
+    line-height: 28px;
+    border: thin;
+    border-radius: 5px;
+}
+
+.sp1 {
+    margin-left: 20px;
+    color: #fff;
+    background: #9C3;
+    float: left;
+}
+
+.sp2 {
+    margin-right: 25px;
+    color: #9c3;
+    background: #FFF;
+    float: right;
+}
+
+.pic1 {
+    width: 170px;
+    background: url(img/a1.png) no-repeat left top;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pic2 {
+    width: 170px;
+    background: url(img/a2.png) no-repeat right top;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
