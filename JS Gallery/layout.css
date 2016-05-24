@@ -1,0 +1,52 @@
+@charset "UTF-8";
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    background-color: #ccc;
+    margin: 1em 5%;
+}
+
+h1{
+    color: #333;
+    background-color: transparent;
+}
+a{
+    color: #c60;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+li{
+    float: left;
+    padding: 1em;
+    list-style-type: none;
+}
+image{
+    width: 100%;
+    margin-left: 1%;
+}
+#placeholder{
+    display: block;
+    clear: both;
+
+}
+
+@media screen and ( max-width: 480px){
+    body{
+    margin: 1em 1%;
+}
+    html{
+        font-size: 50%;
+    }
+}
