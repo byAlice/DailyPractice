@@ -98,7 +98,7 @@ function prepareGallery(){
     var gallery = document.getElementById("imagegallery");
     var links = gallery.getElementsByTagName("a");
     for(var i = 0;i< links.length;i++) {
-        links[i].onlick = function(){
+        links[i].onclick = function(){
             return showPic(this);
         };
         links[i].onkeypress = links[i].onclick;
@@ -114,7 +114,7 @@ function showPic(whichpic){
         var text = whichpic.getAttribute("title");
     }
     else{
-        text = "";
+        var text = "";
     }
     var description = document.getElementById("description");
     if(description.firstChild.nodeType ==3){

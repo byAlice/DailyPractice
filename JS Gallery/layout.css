@@ -41,7 +41,9 @@ image{
     clear: both;
 
 }
-
+#description{
+    margin-left: 1px;
+}
 @media screen and ( max-width: 480px){
     body{
     margin: 1em 1%;
