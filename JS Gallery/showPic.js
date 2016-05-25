@@ -53,6 +53,9 @@ function showPic(whichpic) {
 
 
 };*/
+
+
+/*页面加载项*/
 function addLoadEvent(func){
     var oldonload = window.onload;
     if(typeof window.onload != "function"){
@@ -65,6 +68,7 @@ function addLoadEvent(func){
         }
     }
 }
+/*insertAfter（）函数*/
 function insertAfter(newElement,targetElement){
     var parent = targetElement.parentNode;
     if(parent.lastChild == targetElement){
@@ -74,6 +78,7 @@ function insertAfter(newElement,targetElement){
         parent.insertBefore(newElement,targetElement.nextSibling)
     }
 }
+/*preparePlaceholder（）函数*/
 function preparePlaceholder(){
     if(!document.createElement) return false;
     if(!document.createTextNode) return false;
@@ -88,9 +93,12 @@ function preparePlaceholder(){
     var desctext = document.createTextNode("choose an image");
     description.appendChild(desctext);
     var gallery = document.getElementById("imagegallery");
-    insertAfter(placeholder,gallery);
+
     insertAfter(description,gallery);
+    insertAfter(placeholder,gallery);
 }
+
+/*prepareGallery（）函数*/
 function prepareGallery(){
     if(!document.getElementsByTagName) return false;
     if(!document.getElementById) return false;
@@ -101,9 +109,11 @@ function prepareGallery(){
         links[i].onclick = function(){
             return showPic(this);
         };
-        links[i].onkeypress = links[i].onclick;
+        links[i].onkeypress = links[i].onclick;     //键盘点击动作
     }
 }
+
+/*showPic（）函数*/
 function showPic(whichpic){
     if(!document.getElementById("placeholder")) return true;
     var source = whichpic.getAttribute("href");
@@ -122,6 +132,6 @@ function showPic(whichpic){
     }
     return false;
 }
-
+/*要加载的函数*/
 addLoadEvent(preparePlaceholder);
 addLoadEvent(prepareGallery);

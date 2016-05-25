@@ -28,21 +28,13 @@ ul{
     padding: 0;
 }
 li{
-    float: left;
+    display:inline-block;
     padding: 1em;
     list-style-type: none;
 }
 image{
     width: 100%;
     margin-left: 1%;
-}
-#placeholder{
-    display: block;
-    clear: both;
-
-}
-#description{
-    margin-left: 1px;
 }
 @media screen and ( max-width: 480px){
     body{
