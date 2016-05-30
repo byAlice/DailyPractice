@@ -1,0 +1,16 @@
+
+.active {
+    background: #d6b1fa;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background: #CCC;
+    border: 1px solid #999;
+    display: none;
+}
+
+#div1 {
+    display: block;
+}
