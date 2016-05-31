@@ -8,24 +8,22 @@ window.onload = function () {
     var oContent = document.getElementById("content");
     var onOff = true;
     var oSet = oContent.offsetHeight;
-    /*获取元素高度。注意：如果样式不是写在行内的，是不能直接通过style.width获得元素高度的*/
     oChange.onclick = myFunction;
-    /*切换聊天图片*/
     function myFunction() {
         if (onOff) {
-            oChange.src = 'img/a2.png';
+            oChange.src = 'images/icon-right.jpg';
             onOff = false;
         }
         else {
-            oChange.src = 'img/a1.png';
+            oChange.src = 'images/icon-left.jpg';
             onOff = true;
         }
     }
 
     oBtn.onclick = function () {
         if (oText.value == '') {
-            alert('请输入点内容吧~ ~')
-        }//注意：alert()的括号中，字符串要加引号才行
+            alert('璇疯緭鍏ョ偣鍐呭鍚э紝鐐瑰嚮灏忓ご鍍忓彲浠ユ洿鎹㈠摝~ ~')
+        }
         else {
             if (onOff) {
                 oContent.innerHTML += '<div class="pic1">' + '<span class="sp1">' + oText.value + '</span>' + '</div>';

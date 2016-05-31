@@ -84,9 +84,9 @@ function preparePlaceholder(){
     if(!document.createTextNode) return false;
     if(!document.getElementById) return false;
     if(!document.getElementById("imagegallery")) return false;
-    var placeholder = document.createElement("img");
+    var placeholder = document.createElement("images");
     placeholder.setAttribute("id","placeholder");
-    placeholder.setAttribute("src","img/1.jpg");
+    placeholder.setAttribute("src", "images/1.jpg");
     placeholder.setAttribute("alt","my image gallery");
     var description = document.createElement("p");
     description.setAttribute("id","description");
