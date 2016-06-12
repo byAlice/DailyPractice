@@ -10,7 +10,7 @@
 
 - function： [一个简单函数](http://byalice.github.io/DailyPractice/function/1.html)
 
-- HomePage: 自己做的一个个人[网站主页](http://www.senyu.website/)，展示平时做的练习效果
+- HomePage: 自己做的一个个人[网站主页](http://senyu.website/)，展示平时做的练习效果
 
 - InvertSelection：[全选不选反选](http://byalice.github.io/DailyPractice/InvertSelection/1.html)
 
