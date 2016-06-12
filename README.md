@@ -14,10 +14,10 @@
 
 - InvertSelection：[全选不选反选](http://byalice.github.io/DailyPractice/InvertSelection/1.html)
 
-- JsGallery：[JS美术馆](http://byalice.github.io/DailyPractice/JsGallery/1.html)
+- JsGallery：[JS美术馆](http://byalice.github.io/DailyPractice/JsGallery/gallery.html)
 
-- JsCalendar：[JavaScript简易日历](http://www.senyu.website/js/4/1.html)
+- JsCalendar：[JavaScript简易日历](http://byalice.github.io/DailyPractice/JsCalendar/1.html)
 
-- qqSend: [模拟手机qq发送](http://www.senyu.website/js/3/1.html)
+- qqSend: [模拟手机qq发送](http://byalice.github.io/DailyPractice/qqSend/1.html)
 
-- TabControl: 选择卡，选择不同项展示不同内容
+- TabControl: [选择卡](http://byalice.github.io/DailyPractice/TabControl/1.html)，选择不同项展示不同内容
