@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#control {
+    margin: 50px auto;
+    text-align: center;
+}
+
+#control a {
+    text-decoration: none;
+}
+
+#wrap {
+    width: 1180px;
+    height: 100px;
+    border: 1px solid #222222;
+    background-color: #efefef;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.items {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.items li {
+    list-style-type: none;
+    float: left;
+    margin-left: 20px;
+
+}
+
+img {
+    display: block;
+    width: 180px;
+    height: 100px;
+}
+
+#no-margin {
+    margin-left: 0;
+}
