@@ -23,3 +23,5 @@
 *   qqSend：[模拟手机qq发送](http://byalice.github.io/DailyPractice/qqSend/1.html)
 
 *   TabControl：[选择卡](http://byalice.github.io/DailyPractice/TabControl/1.html)，选择不同项展示不同内容
+
+*   table：[表格](http://byalice.github.io/DailyPractice/table/1.html),隔行换色，移入高亮，移出恢复，以及添加、删除行
