@@ -6,6 +6,8 @@ window.onload = function () {
     var oName = document.getElementById('name');
     var oAge = document.getElementById('age');
     var num = oTab.tBodies[0].rows.length + 1;
+    var oBtn2=document.getElementById('btn2');
+    var oTxt=document.getElementById('sname')
 
 
     //表格删除与添加
@@ -51,6 +53,29 @@ window.onload = function () {
 
         }
     };
+
+//搜索
+   oBtn2.onclick=function ()
+    {
+        for(var i=0;i<oTab.tBodies[0].rows.length;i++)
+        {
+            var sTab=oTab.tBodies[0].rows[i].cells[1].innerHTML.toLowerCase();
+            var sTxt=oTxt.value.toLowerCase();
+
+            var arr=sTxt.split(' ');        //转换小写比较
+
+            oTab.tBodies[0].rows[i].style.background='';
+
+            for(var j=0;j<arr.length;j++)
+            {
+                if(sTab.search(arr[j])!=-1)     //search，找到并返回字符串出现的位置，如果没找到返回-1，这里不等于-1，说明找到
+                {
+                    oTab.tBodies[0].rows[i].style.background='yellow';
+                }
+            }
+        }
+    };
+
     //隔行换色
     for (var i = 0; i < oTab.tBodies[0].rows.length; i++) {
         oTab.tBodies[0].rows[i].onmouseover = function () {
