@@ -7,3 +7,7 @@ table, tr, td, th {
 table{
     margin-top: 20px;
 }
+
+#name {
+    margin-bottom: 5px;
+}
