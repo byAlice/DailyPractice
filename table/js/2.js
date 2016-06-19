@@ -14,7 +14,7 @@ window.onload = function () {
         }
 
         arr.sort(function (li1, li2) {
-                var n1 = parseInt(li1.innerHTML);
+            var n1 = parseInt(li1.innerHTML);   //将li1标签中的数字以10为基数返回成整数，存入n1中
                 var n2 = parseInt(li2.innerHTML);
                 return n1 - n2;
             }
