@@ -1,0 +1,7 @@
+img {
+    display: block;
+    width: 300px;
+    height: 400px;
+    filter: alpha(opacity:30);
+    opacity: 0.3;
+}
