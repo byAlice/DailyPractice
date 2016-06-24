@@ -26,6 +26,8 @@
 
   * [淡入淡出](http://byalice.github.io/DailyPractice/move/2.html)
 
+  * [缓冲运动](http://byalice.github.io/DailyPractice/move/3.html)
+
 
 
 
