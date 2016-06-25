@@ -28,6 +28,8 @@
 
   * [缓冲运动](http://byalice.github.io/DailyPractice/move/3.html)
 
+  * [右下角悬浮框防抖动](http://byalice.github.io/DailyPractice/move/4.html)
+
 
 
 
