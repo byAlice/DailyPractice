@@ -7,7 +7,7 @@ window.onload=function () {
     oBtn.onclick=function startMove() {
         setInterval(function () {
             var speed=(300-oDiv.offsetLeft)/10;
-            speed=speed>0?Math.ceil(speed):Math.floor(speed);
+            speed=speed>0?Math.ceil(speed):Math.floor(speed);   //速度=（目标值-当前值）/缩放系数
 
             oDiv.style.left=oDiv.offsetLeft+speed+'px';
             oS.value=oDiv.offsetLeft;
