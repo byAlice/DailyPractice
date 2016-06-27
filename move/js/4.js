@@ -2,7 +2,7 @@ window.onscroll=function () {
     var oDiv=document.getElementById('div1');
     var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;  //做兼容，这里从上往下滚动时值为正，反之为负
 
-    startMove(document.documentElement.clientHeight-oDiv.offsetHeight+scrollTop);   //目标值=页面可视区高度-div的高度+滚动条相对滚动的距离
+    startMove(parseInt((document.documentElement.clientHeight - oDiv.offsetHeight) / 2 + scrollTop));   //目标值=(页面可视区高度-div的高度)/2+滚动条相对滚动的距离,使悬浮框悬浮在右侧中间，parseInt(目标值)将目标值转换成整数，由于屏幕最小单位是1px，出现小数时会上下抖动
 };
 var timer=null;
 
