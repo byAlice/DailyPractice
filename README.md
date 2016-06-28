@@ -14,7 +14,7 @@
 
 *   InvertSelection：[全选不选反选](http://byalice.github.io/DailyPractice/InvertSelection/1.html)
 
-*   JsGallery：[JS美术馆](http://byalice.github.io/DailyPractice/JsGallery/1.html)
+*   JsGallery：[JS美术馆](http://byalice.github.io/DailyPractice/JsGallery/gallery.html)
 
 *   JsCalendar：[JavaScript简易日历](http://byalice.github.io/DailyPractice/JsCalendar/1.html)
 
@@ -28,7 +28,9 @@
 
   * [缓冲运动](http://byalice.github.io/DailyPractice/move/3.html)
 
-  * [右下角悬浮框防抖动](http://byalice.github.io/DailyPractice/move/4.html)
+  * [右悬浮框](http://byalice.github.io/DailyPractice/move/4.html)
+
+  * [匀速运动停止条件](http://byalice.github.io/DailyPractice/move/5.html)
 
 
 
