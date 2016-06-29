@@ -5,7 +5,7 @@ window.onload = function () {
     var aImg = document.getElementsByTagName('img');
 
     for (var i = 0; i < aImg.length; i++) {
-        aImg[i].alpha=30;
+        aImg[i].alpha=50;
 
         aImg[i].onmousemove = function () {
             startMove(this,100);
@@ -20,7 +20,7 @@ window.onload = function () {
 function startMove(obj,iTarget) {
     clearInterval(obj.timer);
     obj.timer = setInterval(function () {
-        var speed = (iTarget-obj.alpha)/6;
+        var speed = (iTarget-obj.alpha)/20;
         speed=speed>0?Math.ceil(speed):Math.floor(speed);
 
         if (obj.alpha == iTarget) {
