@@ -24,7 +24,7 @@
 
   * [分享到](http://byalice.github.io/DailyPractice/move/1.html)
 
-  * [淡入淡出](http://byalice.github.io/DailyPractice/move/2.html)
+  * [多物体淡入淡出](http://byalice.github.io/DailyPractice/move/2.html)
 
   * [缓冲运动](http://byalice.github.io/DailyPractice/move/3.html)
 

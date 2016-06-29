@@ -2,40 +2,34 @@
  * Created by alice on 2016/6/23.
  */
 window.onload = function () {
-    var oImg = document.getElementById('img');
+    var aImg = document.getElementsByTagName('img');
 
-    oImg.onmousemove = function () {
-        startMove(100)
-    };
-    oImg.onmouseout = function () {
-        startMove(50)
-    };
+    for (var i = 0; i < aImg.length; i++) {
+        aImg[i].alpha=30;
+
+        aImg[i].onmousemove = function () {
+            startMove(this,100);
+        };
+        aImg[i].onmouseout = function () {
+            startMove(this,50);
+        };
+    }
 };
 
-var alpha = 50;
-var timer = 0;
 
-function startMove(iTarget) {
-    var oImg = document.getElementById('img');
+function startMove(obj,iTarget) {
+    clearInterval(obj.timer);
+    obj.timer = setInterval(function () {
+        var speed = (iTarget-obj.alpha)/6;
+        speed=speed>0?Math.ceil(speed):Math.floor(speed);
 
-    clearInterval(timer);
-    timer = setInterval(function () {
-        var speed = 0;
-
-        if (alpha < iTarget) {
-            speed = 5;
+        if (obj.alpha == iTarget) {
+            clearInterval(obj.timer);
         }
         else {
-            speed = -5;
-        }
-
-        if (alpha == iTarget) {
-            clearInterval(timer);
-        }
-        else {
-            alpha += speed;
-            oImg.style.filter = 'alpha(opacity:' + alpha + ')';
-            oImg.style.opacity = alpha / 100;
+            obj.alpha += speed;
+            obj.style.filter = 'alpha(opacity:' + obj.alpha + ')';
+            obj.style.opacity = obj.alpha / 100;
         }
     }, 30);
 }
