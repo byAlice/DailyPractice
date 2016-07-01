@@ -3,8 +3,8 @@
     height: 100px;
     background: green;
     position: absolute;
-    left: 0;
-    /*left: 600px;*/
+    left: 600px;
+    /*left: 0px;*/
     top: 150px;
 }
 #div2{
