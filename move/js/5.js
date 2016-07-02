@@ -18,7 +18,7 @@ window.onload = function () {
     };
     aBtn[3].onclick = function () {
 
-        startMove(900);
+        startMove(1000);
     };
 };
 var timer = null;
