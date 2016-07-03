@@ -32,6 +32,8 @@
 
   * [匀速运动停止条件](http://byalice.github.io/DailyPractice/move/5.html)
 
+  * [多个div变宽](http://byalice.github.io/DailyPractice/move/6.html)
+
 
 
 
