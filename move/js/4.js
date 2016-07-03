@@ -13,7 +13,7 @@ function startMove(iTarget) {
     timer=setInterval(function () {
         var speed=(iTarget-oDiv.offsetTop)/6;
 
-        speed=speed>0?Math.ceil(speed):Math.floor(speed);   //判断向上向下取整
+        speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);   //判断向上向下取整,正数向上取整，负数向下取整
 
         if (oDiv.offsetTop==iTarget) {
             clearInterval(timer);
