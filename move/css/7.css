@@ -1,0 +1,7 @@
+#div1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    filter: alpha(opacity:30);
+    opacity: 0.3;
+}
