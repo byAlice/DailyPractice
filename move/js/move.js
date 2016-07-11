@@ -2,10 +2,10 @@
  * Created by alice on 2016/7/4.
  */
 /*
- *运动框架
+ *链式运动框架
  * */
 
-/*由于offset是盒子模型的大小，易出bug，故使用currentStyle，这里需要做兼容*/
+/*通过getStyle解决边框bug，并考虑兼容性*/
 function getStyle(obj, name) {
     if (obj.currentStyle) {
         return obj.currentStyle[name];
@@ -14,24 +14,27 @@ function getStyle(obj, name) {
         return getComputedStyle(obj, false)[name];
     }
 }
-function startMove(obj, attr, iTarget) {
+function startMove(obj, attr, iTarget, fnEnd) {
     clearInterval(obj.timer);
 
     obj.timer = setInterval(function () {
 
             var cur = 0;
             if (attr == 'opacity') {
-                cur = Math.round(parseInt(getStyle(obj, attr)) * 100);   //Math.round（）四舍五入
+                cur = Math.round(parseFloat(getStyle(obj, attr)) * 100);   //如果当前值为透明度（无单位，且为小数），需要用parseFloat去小数，再用Math.round（）四舍五入
             }
             else {
                 cur = parseInt(getStyle(obj, attr));
             }
-            var speed = (iTarget - cur) / 4;
+        var speed = (iTarget - cur) / 6;
 
-            speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+        speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);   //求速度并考虑正数向上负数向下取整
 
             if (cur == iTarget) {
                 clearInterval(obj.timer);
+                if (fnEnd) {
+                    fnEnd();
+                } //回调函数
             }
             else {
                 if (attr == 'opacity') {
