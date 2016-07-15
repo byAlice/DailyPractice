@@ -34,7 +34,11 @@
 
   * [多个div变宽](http://byalice.github.io/DailyPractice/move/6.html)
 
+  * [变高变宽](http://byalice.github.io/DailyPractice/move/8.html)
+
   * [链式运动](http://byalice.github.io/DailyPractice/move/7.html)
+
+
 
 
 
