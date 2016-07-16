@@ -20,7 +20,7 @@
 
 *   marquee：[无缝滚动](http://byalice.github.io/DailyPractice/marquee/index.html)
 
-* move: *js简易运动*
+* move: js简易运动
 
   * [分享到](http://byalice.github.io/DailyPractice/move/1.html)
 
@@ -37,8 +37,6 @@
   * [变高变宽](http://byalice.github.io/DailyPractice/move/8.html)
 
   * [链式运动](http://byalice.github.io/DailyPractice/move/7.html)
-
-
 
 
 
