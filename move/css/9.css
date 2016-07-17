@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    margin-left: 272px;
+}
+
+#ul1 {
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+#ul1 li {
+    border-bottom: 1px #ce8483 dashed;
+    padding: 4px;
+    list-style: none;
+    overflow: hidden;
+    filter: alpha(opacity:0);
+    opacity: 0;
+}

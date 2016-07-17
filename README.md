@@ -38,6 +38,8 @@
 
   * [链式运动](http://byalice.github.io/DailyPractice/move/7.html)
 
+  * [简单模仿微博发布淡出](http://byalice.github.io/DailyPractice/move/9.html)
+
 
 
 
