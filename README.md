@@ -38,7 +38,9 @@
 
   * [链式运动](http://byalice.github.io/DailyPractice/move/7.html)
 
-  * [简单模仿微博发布淡出](http://byalice.github.io/DailyPractice/move/9.html)
+  * [简单模仿微博发布淡出效果](http://byalice.github.io/DailyPractice/move/9.html)
+
+  * [图片上下轮播](http://byalice.github.io/DailyPractice/move/10.html)
 
 
 
