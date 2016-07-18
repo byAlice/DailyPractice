@@ -1,0 +1,176 @@
+body {
+    background: #666;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+.play {
+    width: 400px;
+    height: 430px;
+    margin: 50px auto;
+    background: #999;
+    font: 12px Arial;
+}
+
+/*大图*/
+.big_pic {
+    width: 400px;
+    height: 320px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    background: #222;
+    position: relative;
+}
+
+.big_pic li {
+    width: 400px;
+    height: 320px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: url("../img/loading.gif") no-repeat center center;
+}
+
+/*左右分为两半，易于判断鼠标所在位置*/
+.mark_left {
+    width: 200px;
+    height: 320px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: red;
+    filter: alpha(opacity:0);
+    opacity: 0;
+    z-index: 3000;
+}
+
+.mark_right {
+    width: 200px;
+    height: 320px;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    background: green;
+    filter: alpha(opacity:0);
+    opacity: 0;
+    z-index: 3000;
+}
+
+/*上一张下一张按钮*/
+.big_pic .prev {
+    width: 60px;
+    height: 60px;
+    background: url("../img/btn.gif") no-repeat;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    z-index: 3001;
+    filter: alpha(opacity:0);
+    opacity: 0;
+    cursor: pointer;
+}
+
+.big_pic .next {
+    width: 60px;
+    height: 60px;
+    background: url("../img/btn.gif") no-repeat 0 -60px;
+    position: absolute;
+    top: 130px;
+    right: 10px;
+    z-index: 3001;
+    filter: alpha(opacity:0);
+    opacity: 0;
+    cursor: pointer;
+}
+
+/*图片描述*/
+.big_pic .text {
+    position: absolute;
+    left: 10px;
+    top: 302px;
+    z-index: 3000;
+    color: #ccc;
+}
+
+/*图片所在页*/
+.big_pic .length {
+    position: absolute;
+    right: 10px;
+    bottom: 4px;
+    z-index: 3000;
+    color: #ccc;
+}
+
+/*图片描述及所在页背景*/
+.big_pic .bg {
+    width: 400px;
+    height: 25px;
+    background: #000;
+    filter: alpha(opacity:60);
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2999;
+
+}
+
+/*大图宽高*/
+.big_pic img {
+    width: 400px;
+    height: 320px;
+}
+
+/*小图*/
+.small_pic {
+    width: 380px;
+    height: 94px;
+    position: relative;
+    top: 7px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.small_pic ul {
+    width: 780px;
+    height: 94px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.small_pic li {
+    width: 120px;
+    height: 94px;
+    float: left;
+    padding-right: 10px;
+    background: url("../img/loading.gif") no-repeat center center;
+    cursor: pointer;
+    filter: alpha(opacity:60);
+    opacity: 0.6;
+}
+
+.small_pic .light {
+    filter: alpha(opacity:100);
+    opacity: 1;
+}
+
+/*小图宽高*/
+.small_pic img {
+    width: 120px;
+    height: 94px;
+}
+
