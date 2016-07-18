@@ -42,6 +42,10 @@
 
   * [图片上下轮播](http://byalice.github.io/DailyPractice/move/10.html)
 
+  * [图片左右轮播](http://byalice.github.io/DailyPractice/move/11.html)
+
+  * [含缩略图轮播](http://byalice.github.io/DailyPractice/move/12.html)
+
 
 
 

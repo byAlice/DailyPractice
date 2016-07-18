@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="097e7d47-58d8-4bb9-9957-237870586128" name="默认的" comment="tb carousel">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/move/img/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/move/img/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/move/img/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/move/img/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/move/img/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/move/img/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/move/img/btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/move/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/move/12.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/move/css/12.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/move/js/12.js" />
+    <list default="true" id="097e7d47-58d8-4bb9-9957-237870586128" name="默认的" comment="thumbnail carousel">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <list id="3fcfcc46-894a-47ec-859a-dca05d35f1ae" name="New changelist" comment="" />
     <ignored path="PracticWork.iws" />
@@ -39,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/move/12.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-2.875">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -49,17 +39,27 @@
         <entry file="file://$PROJECT_DIR$/move/css/12.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-20.40625">
-              <caret line="151" column="6" selection-start-line="151" selection-start-column="6" selection-end-line="151" selection-end-column="6" />
+              <caret line="170" column="6" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="12.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/move/js/12.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="97" column="192" selection-start-line="97" selection-start-column="192" selection-end-line="97" selection-end-column="192" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.38337803">
-              <caret line="99" column="192" selection-start-line="99" selection-start-column="192" selection-end-line="99" selection-end-column="192" />
+              <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -155,13 +155,13 @@
         <option value="F:/BaiduYunDownload/智能社javascript配套源码/智能社视频材料 - JS运动中级/记录/幻灯片——上下滑动/css.css" />
         <option value="$PROJECT_DIR$/move/js/10.js" />
         <option value="$PROJECT_DIR$/move/css/10.css" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/move/11.html" />
         <option value="$PROJECT_DIR$/move/js/11.js" />
         <option value="$PROJECT_DIR$/move/css/11.css" />
         <option value="$PROJECT_DIR$/move/12.html" />
         <option value="$PROJECT_DIR$/move/css/12.css" />
         <option value="$PROJECT_DIR$/move/js/12.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -530,7 +530,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468761348313</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="thumbnail carousel">
+      <created>1468857362518</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1468857362518</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -552,6 +558,7 @@
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31635803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -562,7 +569,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31635803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -610,7 +616,8 @@
     <MESSAGE value="read me" />
     <MESSAGE value="weibo" />
     <MESSAGE value="tb carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="tb carousel" />
+    <MESSAGE value="thumbnail carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="thumbnail carousel" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -915,14 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.055319">
-          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/move/js/11.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04893617">
@@ -982,7 +981,7 @@
     <entry file="file://$PROJECT_DIR$/move/12.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.875">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -990,15 +989,23 @@
     <entry file="file://$PROJECT_DIR$/move/css/12.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.40625">
-          <caret line="151" column="6" selection-start-line="151" selection-start-column="6" selection-end-line="151" selection-end-column="6" />
+          <caret line="170" column="6" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/move/js/12.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="192" selection-start-line="97" selection-start-column="192" selection-end-line="97" selection-end-column="192" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38337803">
-          <caret line="99" column="192" selection-start-line="99" selection-start-column="192" selection-end-line="99" selection-end-column="192" />
+          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
           <folding />
         </state>
       </provider>
