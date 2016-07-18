@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="097e7d47-58d8-4bb9-9957-237870586128" name="默认的" comment="thumbnail carousel">
+    <list default="true" id="097e7d47-58d8-4bb9-9957-237870586128" name="默认的" comment="readme">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/move/js/12.js" afterPath="$PROJECT_DIR$/move/js/12.js" />
     </list>
     <list id="3fcfcc46-894a-47ec-859a-dca05d35f1ae" name="New changelist" comment="" />
     <ignored path="PracticWork.iws" />
@@ -45,20 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="12.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/move/js/12.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="97" column="192" selection-start-line="97" selection-start-column="192" selection-end-line="97" selection-end-column="192" />
+            <state vertical-scroll-proportion="0.4107143">
+              <caret line="98" column="208" selection-start-line="98" selection-start-column="208" selection-end-line="98" selection-end-column="208" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38337803">
+            <state vertical-scroll-proportion="0.0">
               <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
               <folding />
             </state>
@@ -160,8 +160,8 @@
         <option value="$PROJECT_DIR$/move/css/11.css" />
         <option value="$PROJECT_DIR$/move/12.html" />
         <option value="$PROJECT_DIR$/move/css/12.css" />
-        <option value="$PROJECT_DIR$/move/js/12.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/move/js/12.js" />
       </list>
     </option>
   </component>
@@ -171,10 +171,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="105" />
-    <option name="width" value="1215" />
-    <option name="height" value="541" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -536,7 +536,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468857362518</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="readme">
+      <created>1468857466100</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1468857466100</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -550,10 +556,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="105" width="1215" height="541" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17872341" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15648286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -611,13 +617,13 @@
     <MESSAGE value="5.css" />
     <MESSAGE value="3.css" />
     <MESSAGE value="Multiple div wider" />
-    <MESSAGE value="readme" />
     <MESSAGE value="chain move" />
     <MESSAGE value="read me" />
     <MESSAGE value="weibo" />
     <MESSAGE value="tb carousel" />
     <MESSAGE value="thumbnail carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="thumbnail carousel" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -994,18 +1000,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/move/js/12.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="192" selection-start-line="97" selection-start-column="192" selection-end-line="97" selection-end-column="192" />
+          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/move/js/12.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38337803">
-          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.4107143">
+          <caret line="98" column="208" selection-start-line="98" selection-start-column="208" selection-end-line="98" selection-end-column="208" />
           <folding />
         </state>
       </provider>

@@ -95,7 +95,17 @@ window.onload = function () {
         oTxt.innerHTML = aTxt[now];
         oLength.innerHTML = (now + 1) + '/' + aLiBig.length;
 
-        /*小图高亮规则：如果是now为0，即第一张，而后保持高亮的图片在第二张的位置（除了now=5，第六张图在最右边），即如果now为1，left值还是不变，如果now为2，也就是第三张，这时候要左移一个aLiSmall[0].offsetWidth的长度(130px)，now为3,4也是如此，now为5是也就是最后一张，需要向左移3*150px的距离回到轮播的起始位置*/
+        /*小图高亮移动规则：
+         第一张和最后一张分别在最左边和最右边（如果是now为0，即第一张，图片不移动）而后保持高亮的图片在第二张的位置（除了now=5，第六张图在最右边），即如果now为1，left值还是不变，如果now为2，也就是第三张，这时候要左移一个aLiSmall[0].offsetWidth的长度(130px)，now为3,4也是如此，now为5是也就是最后一张，移动量跟now=4时一样（实际上相当于没有移动），如下：
+
+
+         now        left
+         0          0
+         1     -（1-1）*150px
+         2     -（2-1）*150px
+         3     -（3-1）*150px
+         4     -（4-1）*150px
+         5     -（5-2）*150px*/
         if (now == 0) {
             startMove(oUlSmall, 'left', 0);
         }
