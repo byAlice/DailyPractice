@@ -20,7 +20,7 @@ window.onload = function () {
         }
     }
 
-    oBtn.onclick = function () {
+    function send() {
         if (oText.value == '') {
             alert('请输入点内容吧，点击小头像可以更换哦~ ~')
         }
@@ -33,7 +33,22 @@ window.onload = function () {
             }
             oText.value = '';
         }
+    }
+
+    /*点击事件*/
+    oBtn.onclick = function () {
+        send();
     };
+
+    /*键盘事件*/
+    oText.onkeydown = function (ev) {
+        var oEvent = ev || event;
+        if (oEvent.keyCode == 13) {
+            send();
+        }
+    };
+
+    /*内容溢出出现垂直方向出现滚动条*/
     if (oSet == 0) {
         oContent.style.overflowY = 'scroll'
     }
