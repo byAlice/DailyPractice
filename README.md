@@ -53,6 +53,8 @@
 
 	* [取消事件冒泡](http://byalice.github.io/DailyPractice/event/1.html)
 
+	* [一串div随鼠标移动](http://byalice.github.io/DailyPractice/event/2.html)
+
 
 
 

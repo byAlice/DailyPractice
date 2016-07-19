@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="097e7d47-58d8-4bb9-9957-237870586128" name="默认的" comment="change annotation">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/css/1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/css/2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/js/1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/js/2.js" />
+    <list default="true" id="097e7d47-58d8-4bb9-9957-237870586128" name="默认的" comment="event">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -41,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.4025974">
+              <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -61,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/event/js/2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42880794">
+            <state vertical-scroll-proportion="0.0">
               <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding />
             </state>
@@ -174,10 +168,10 @@
         <option value="$PROJECT_DIR$/event/css/1.css" />
         <option value="$PROJECT_DIR$/event/js/1.js" />
         <option value="$PROJECT_DIR$/event/1.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/event/css/2.css" />
         <option value="$PROJECT_DIR$/event/2.html" />
         <option value="$PROJECT_DIR$/event/js/2.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -187,10 +181,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
-    <option name="y" value="4" />
-    <option name="width" value="1215" />
-    <option name="height" value="772" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -564,7 +558,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468858967085</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="event">
+      <created>1468905944324</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1468905944324</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -578,14 +578,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="4" width="1215" height="772" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17872341" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15648286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31635803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -596,7 +597,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31635803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -621,7 +621,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bootstrap webpage" />
     <MESSAGE value="手机视图优化" />
     <MESSAGE value="image gallery" />
     <MESSAGE value="image gallery  modified again" />
@@ -646,7 +645,8 @@
     <MESSAGE value="thumbnail carousel" />
     <MESSAGE value="readme" />
     <MESSAGE value="change annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="change annotation" />
+    <MESSAGE value="event" />
+    <option name="LAST_COMMIT_MESSAGE" value="event" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -992,14 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/event/1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.78125">
@@ -1018,8 +1010,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/event/js/2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42880794">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4025974">
+          <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
           <folding />
         </state>
       </provider>
