@@ -40,13 +40,22 @@ window.onload = function () {
         send();
     };
 
-    /*键盘事件*/
+    /*键盘事件  enter*/
     oText.onkeydown = function (ev) {
         var oEvent = ev || event;
         if (oEvent.keyCode == 13) {
             send();
         }
     };
+    /*
+     * 组合按键  ctrl+enter
+     * oText.onkeydown = function (ev) {
+     var oEvent = ev || event;
+     if (oEvent.keyCode == 13&&oEvent.ctrlKey) {
+     send();
+     }
+     };
+     * */
 
     /*内容溢出出现垂直方向出现滚动条*/
     if (oSet == 0) {
