@@ -55,6 +55,8 @@
 
 	* [一串div随鼠标移动](http://byalice.github.io/DailyPractice/event/2.html)
 
+	* [查看keyCode](http://byalice.github.io/DailyPractice/event/keyCode.html)
+
 
 
 
