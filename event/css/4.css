@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+#div1 {
+    position: absolute;
+    width: 120px;
+    background: #dfc1fa;
+    border: 1px solid #9fc1ff;
+    display: none;
+}
