@@ -57,6 +57,8 @@
 
 	* [查看keyCode](http://byalice.github.io/DailyPractice/event/keyCode.html)
 
+	* [通过按键控制div移动](http://byalice.github.io/DailyPractice/event/3.html)
+
 
 
 

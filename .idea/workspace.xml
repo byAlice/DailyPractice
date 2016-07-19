@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="097e7d47-58d8-4bb9-9957-237870586128" name="默认的" comment="keyCode">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/css/3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/event/js/3.js" />
+    <list default="true" id="097e7d47-58d8-4bb9-9957-237870586128" name="默认的" comment="onkeydown&amp;onkeyup">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <list id="3fcfcc46-894a-47ec-859a-dca05d35f1ae" name="New changelist" comment="" />
     <ignored path="PracticWork.iws" />
@@ -27,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="68" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+            <state vertical-scroll-proportion="0.39072847">
+              <caret line="59" column="64" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -51,16 +49,16 @@
         <entry file="file://$PROJECT_DIR$/event/js/3.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="14" selection-start-line="4" selection-start-column="2" selection-end-line="12" selection-end-column="14" />
+              <caret line="12" column="14" selection-start-line="4" selection-start-column="3" selection-end-line="12" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/event/3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5979021">
+            <state vertical-scroll-proportion="-10.6875">
               <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
@@ -137,11 +135,11 @@
         <option value="$PROJECT_DIR$/event/2.html" />
         <option value="$PROJECT_DIR$/event/js/2.js" />
         <option value="$PROJECT_DIR$/event/keyCode.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/event/4.html" />
         <option value="$PROJECT_DIR$/event/js/3.js" />
-        <option value="$PROJECT_DIR$/event/3.html" />
         <option value="$PROJECT_DIR$/event/css/3.css" />
+        <option value="$PROJECT_DIR$/event/3.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -151,8 +149,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="60" />
-    <option name="y" value="57" />
+    <option name="x" value="-30" />
+    <option name="y" value="2" />
     <option name="width" value="1370" />
     <option name="height" value="772" />
   </component>
@@ -546,7 +544,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468910111508</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="onkeydown&amp;onkeyup">
+      <created>1468928607363</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1468928607363</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -560,7 +564,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="57" width="1370" height="772" extended-state="0" />
+    <frame x="-30" y="2" width="1370" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15789473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -603,7 +607,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="image gallery" />
     <MESSAGE value="image gallery  modified again" />
     <MESSAGE value="image gallery  modified repair" />
     <MESSAGE value="TabControl" />
@@ -628,7 +631,8 @@
     <MESSAGE value="change annotation" />
     <MESSAGE value="event" />
     <MESSAGE value="keyCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="keyCode" />
+    <MESSAGE value="onkeydown&amp;onkeyup" />
+    <option name="LAST_COMMIT_MESSAGE" value="onkeydown&amp;onkeyup" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -934,14 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="68" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/event/keyCode.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15753424">
@@ -995,7 +991,7 @@
     <entry file="file://$PROJECT_DIR$/event/js/3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="14" selection-start-line="4" selection-start-column="2" selection-end-line="12" selection-end-column="14" />
+          <caret line="12" column="14" selection-start-line="4" selection-start-column="3" selection-end-line="12" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1010,8 +1006,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/event/3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5979021">
+        <state vertical-scroll-proportion="-10.6875">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39072847">
+          <caret line="59" column="64" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
           <folding />
         </state>
       </provider>
