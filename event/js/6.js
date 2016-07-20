@@ -13,10 +13,21 @@ window.onload = function () {
         /*定义鼠标坐标分别距div左上边距离*/
         disX = oEvent.clientX - oDiv.offsetLeft;
         disY = oEvent.clientY - oDiv.offsetTop;
-        if (oDiv.setCapture) {
+        /*添加框*/
+        var oBox = document.createElement('div'); //创建一个div
+        oBox.className = 'box';
+        oBox.style.width = oDiv.offsetWidth - 2 + 'px';
+        oBox.style.height = oDiv.offsetHeight - 2 + 'px';
+        /*确定框的位置*/
+        oBox.style.left = oDiv.offsetLeft + 'px';
+        oBox.style.top = oDiv.offsetTop + 'px';
+
+        document.body.appendChild(oBox);    //将创建的div追加到body节点上
+
+        if (oBox.setCapture) {
             //ie
-            oDiv.onmousemove = mouseMove; //不加（）
-            oDiv.onmouseup = mouseUp;     //不加（）
+            oBox.onmousemove = mouseMove; //不加（）
+            oBox.onmouseup = mouseUp;     //不加（）
         }
         else {
             //chrome,firefox
@@ -63,8 +74,8 @@ window.onload = function () {
                 oY = document.documentElement.clientHeight - oDiv.offsetHeight;
             }
 
-            oDiv.style.left = oX + 'px';
-            oDiv.style.top = oY + 'px';
+            oBox.style.left = oX + 'px';
+            oBox.style.top = oY + 'px';
         }
 
         /*鼠标左键松开事件*/
@@ -72,8 +83,14 @@ window.onload = function () {
             this.onmousemove = null;
             this.onmouseup = null;
 
-            if (oDiv.releaseCapture) {
-                oDiv.releaseCapture();
+            /*使div移动到框的位置*/
+            oDiv.style.left = oBox.offsetLeft + 'px';
+            oDiv.style.top = oBox.offsetTop + 'px';
+            /*移除框*/
+            document.body.removeChild(oBox);
+
+            if (oBox.releaseCapture) {
+                oBox.releaseCapture();
             }
         }
 

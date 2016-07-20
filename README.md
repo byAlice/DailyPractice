@@ -63,7 +63,7 @@
 
 	* [限于输入数字的文本框框](http://byalice.github.io/DailyPractice/event/5.html)
 
-	* [拖拽](http://byalice.github.io/DailyPractice/event/6.html)
+	* [带框拖拽](http://byalice.github.io/DailyPractice/event/6.html)
 
 
 

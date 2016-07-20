@@ -5,3 +5,8 @@
     position: absolute;
     color: #FFF;
 }
+
+.box {
+    border: 1px solid red;
+    position: absolute;
+}
