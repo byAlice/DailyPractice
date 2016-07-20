@@ -65,6 +65,8 @@
 
 	* [带框拖拽](http://byalice.github.io/DailyPractice/event/6.html)
 
+	* [自定义滚动条控制div大小、透明度及文本滚动](http://byalice.github.io/DailyPractice/event/7.html)
+
 
 
 

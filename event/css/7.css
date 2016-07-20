@@ -1,0 +1,52 @@
+#strip {
+    width: 600px;
+    height: 20px;
+    background: #cccccc;
+    position: relative;
+    margin: 10px auto;
+}
+
+#strip1 {
+    width: 20px;
+    height: 600px;
+    background: #cccccc;
+    position: relative;
+    margin-top: -612px;
+    margin-left: 1%;
+
+}
+
+#small, #small1 {
+    width: 20px;
+    height: 20px;
+    background-color: #0C8484;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#box {
+    width: 0;
+    height: 0;
+    margin: 10px auto;
+    background: #9fc1ff;
+    filter: alpha(opacity:0);
+    opacity: 0;
+}
+
+#box1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 30px;
+}
+
+#container {
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+    border: 1px solid #2b542c;
+    overflow: hidden;
+    position: relative;
+
+}
