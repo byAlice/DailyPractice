@@ -24,6 +24,7 @@ window.onload = function () {
 
         document.body.appendChild(oBox);    //将创建的div追加到body节点上
 
+        /*鼠标捕获*/
         if (oBox.setCapture) {
             //ie
             oBox.onmousemove = mouseMove; //不加（）
@@ -89,6 +90,7 @@ window.onload = function () {
             /*移除框*/
             document.body.removeChild(oBox);
 
+            /*关闭鼠标捕获*/
             if (oBox.releaseCapture) {
                 oBox.releaseCapture();
             }

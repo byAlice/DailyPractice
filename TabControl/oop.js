@@ -1,7 +1,7 @@
 /**
  * Created by alice on 2016/7/23.
  */
-/*m面向对象方式*/
+/*面向对象方式*/
 window.onload = function () {
     new TabSwitch('who');   //原型里面已经制定了参数为oBtn，即正点击的按钮，这里的参数可随意
 };
