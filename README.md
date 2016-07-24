@@ -22,50 +22,50 @@
 
 * move: js简易运动
 
-  * [分享到](http://byalice.github.io/DailyPractice/move/1.html)
+  1 [分享到](http://byalice.github.io/DailyPractice/move/1.html)
 
-  * [多物体淡入淡出](http://byalice.github.io/DailyPractice/move/2.html)
+  2 [多物体淡入淡出](http://byalice.github.io/DailyPractice/move/2.html)
 
-  * [缓冲运动](http://byalice.github.io/DailyPractice/move/3.html)
+  3 [缓冲运动](http://byalice.github.io/DailyPractice/move/3.html)
 
-  * [右悬浮框](http://byalice.github.io/DailyPractice/move/4.html)
+  4 [右悬浮框](http://byalice.github.io/DailyPractice/move/4.html)
 
-  * [匀速运动停止条件](http://byalice.github.io/DailyPractice/move/5.html)
+  5 [匀速运动停止条件](http://byalice.github.io/DailyPractice/move/5.html)
 
-  * [多个div变宽](http://byalice.github.io/DailyPractice/move/6.html)
+  6 [多个div变宽](http://byalice.github.io/DailyPractice/move/6.html)
 
-  * [变高变宽](http://byalice.github.io/DailyPractice/move/8.html)
+  7 [链式运动](http://byalice.github.io/DailyPractice/move/7.html)
 
-  * [链式运动](http://byalice.github.io/DailyPractice/move/7.html)
+  8 [变高变宽](http://byalice.github.io/DailyPractice/move/8.html)
 
-  * [简单模仿微博发布淡出效果](http://byalice.github.io/DailyPractice/move/9.html)
+  9 [简单模仿微博发布淡出效果](http://byalice.github.io/DailyPractice/move/9.html)
 
-  * [图片上下轮播](http://byalice.github.io/DailyPractice/move/10.html)
+  10 [图片上下轮播](http://byalice.github.io/DailyPractice/move/10.html)
 
-  * [图片左右轮播](http://byalice.github.io/DailyPractice/move/11.html)
+  11 [图片左右轮播](http://byalice.github.io/DailyPractice/move/11.html)
 
-  * [含缩略图轮播](http://byalice.github.io/DailyPractice/move/12.html)
+  12 [含缩略图轮播](http://byalice.github.io/DailyPractice/move/12.html)
 
 
 
 
 * event: 事件
 
-	* [取消事件冒泡](http://byalice.github.io/DailyPractice/event/1.html)
+	1 [取消事件冒泡](http://byalice.github.io/DailyPractice/event/1.html)
 
-	* [一串div随鼠标移动](http://byalice.github.io/DailyPractice/event/2.html)
+	2 [一串div随鼠标移动](http://byalice.github.io/DailyPractice/event/2.html)
 
-	* [查看keyCode](http://byalice.github.io/DailyPractice/event/keyCode.html)
+	3 [通过按键控制div移动](http://byalice.github.io/DailyPractice/event/3.html)
 
-	* [通过按键控制div移动](http://byalice.github.io/DailyPractice/event/3.html)
+	4 [自定义右键菜单](http://byalice.github.io/DailyPractice/event/4.html)
 
-	* [自定义右键菜单](http://byalice.github.io/DailyPractice/event/4.html)
+	5 [限于输入数字的文本框框](http://byalice.github.io/DailyPractice/event/5.html)
 
-	* [限于输入数字的文本框框](http://byalice.github.io/DailyPractice/event/5.html)
+	6 [带框拖拽](http://byalice.github.io/DailyPractice/event/6.html)
 
-	* [带框拖拽](http://byalice.github.io/DailyPractice/event/6.html)
+	7 [自定义滚动条控制div大小、透明度及文本滚动](http://byalice.github.io/DailyPractice/event/7.html)
 
-	* [自定义滚动条控制div大小、透明度及文本滚动](http://byalice.github.io/DailyPractice/event/7.html)
+	8 [查看keyCode](http://byalice.github.io/DailyPractice/event/keyCode.html)
 
 
 
