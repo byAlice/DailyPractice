@@ -1,4 +1,4 @@
-/**
+ /**
  * Created by alice on 2016/7/19.
  */
 window.onload = function () {
