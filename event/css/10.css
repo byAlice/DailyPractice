@@ -18,8 +18,14 @@
 #btn input {
     width: 50px;
     padding: 5px;
+    font-family: "微软雅黑";
     font-size: 15px;
-    font-weight: bold;
     color: #FFFFFF;
     background: #036;
+    border: none;
+}
+
+#result {
+    text-align: left;
+    padding-left: 80px;
 }

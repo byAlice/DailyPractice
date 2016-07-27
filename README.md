@@ -65,11 +65,11 @@
 
 	7 [自定义滚动条控制div大小、透明度及文本滚动](http://byalice.github.io/DailyPractice/event/7.html)
 
-	8 [查看keyCode](http://byalice.github.io/DailyPractice/event/keyCode.html)
+	8 [查看keyCode](http://byalice.github.io/DailyPractice/event/8.html)
 
 	9 [下拉菜单](http://byalice.github.io/DailyPractice/event/9.html)
 
-	9 [滴滴练车](http://byalice.github.io/DailyPractice/event/10.html)
+	10 [滴滴练车](http://byalice.github.io/DailyPractice/event/10.html)
 
 
 
