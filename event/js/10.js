@@ -62,9 +62,8 @@ window.onload = function () {
     }
 
     //结束
-    function stop(e) {
+    function stop() {
         oFlag = 1;
-        aBtn[1].style.backgroundColor = '#036';  //结束按钮变灰色
         var oTxt = oBox.innerHTML;
         //删除已选的数组元素
         for (var i = 0; i < data.length; i++) {
