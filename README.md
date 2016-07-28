@@ -73,6 +73,8 @@
 
 	11 [仿QQ登录](http://byalice.github.io/DailyPractice/event/11.html)
 
+	12 [简易计算器](http://byalice.github.io/DailyPractice/event/12.html)
+
 
 
 
