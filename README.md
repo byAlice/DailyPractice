@@ -74,6 +74,8 @@
 	11 [仿QQ登录](http://byalice.github.io/DailyPractice/event/11.html)
 
 	12 [简易计算器](http://byalice.github.io/DailyPractice/event/12.html)
+	
+	13 [x+x^2<=h，已知h求x](http://byalice.github.io/DailyPractice/event/13.html)
 
 
 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input{
+            width: 200px;
+        }
+        #btn1{
+            width: 50px;
+        }
+    </style>
+    <script>
+        window.onload=function () {
+            var oTxt1=document.getElementById('txt1');
+            var oTxt2=document.getElementById('txt2');
+            var oBtn=document.getElementById('btn1');
+
+            oBtn.onclick=function () {
+               var h=oTxt1.value;
+                if(h>=1&&h<=10^18){
+                var x=parseInt(-1/2+Math.sqrt(h,2));    //Math.sqrt(h,2)求h的平方根
+                   if(x>=0){
+                       oTxt2.value=x;
+                   }
+                }
+                else{
+                    alert('请输入1-10^18之间的整数');
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+输入：<input type="text" id="txt1">
+<input type="button" id="btn1" value="确认">
+输出：<input type="text" id="txt2">
+</body>
+</html>
