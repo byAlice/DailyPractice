@@ -11,7 +11,7 @@ $(document).ready(function(){
     });
     $("#getValue").click(function(){
         var $msg = $("input:radio[name=color]:checked").val() + ",";
-        $("input:checkbox[name=size]:checked").each(function(){
+        $("input:checkbox[name=size]:checked").each(function(){     //each()对checkbox进行遍历,取出所有选中的值
             $msg += $(this).val() + ",";
         });
         $("#txtBox").val($msg);

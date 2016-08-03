@@ -20,7 +20,9 @@
 	
 	2 [单选框与多选框](http://byalice.github.io/DailyPractice/jQuery/2.html)
 	
-	3 [选择器](http://byalice.github.io/DailyPractice/jQuery/3.html)
+	3 [多选择下拉框](http://byalice.github.io/DailyPractice/jQuery/3.html)
+	
+	4 [获得焦点与失去焦点](http://byalice.github.io/DailyPractice/jQuery/4.html)
 	
 	
 	
