@@ -10,7 +10,6 @@ $(document).ready(function () {
     });
     $('#btn3').click(function () {
         $('p').html(function (i,origText) {
-            i=2;
             return origText+"yes,I am newText(index:"+i+")";    //若匹配到多个元素，index即代表这些元素相当于在数组中的脚标（序号）从0开始
         });
     });
@@ -19,8 +18,12 @@ $(document).ready(function () {
     });
 });
 /*
+* .text() - 设置或返回所选元素的文本内容
+* .html设置或返回所选元素的内容（包括 HTML 标记）
+* .val()设置或返回表单字段的值
+*
 * 如果应用到多个元素时进行读取时：
-*       .val()方法和.html()方法只能读取第一个元素的值
+*       .val()方法和.html()方法只能读取第一个元素的值。
 *       而.text()方法可以读到所有匹配元素的值
 * 如果应用到多个元素时进行设置时：三者都可以同时设置多个匹配元素
 * */
