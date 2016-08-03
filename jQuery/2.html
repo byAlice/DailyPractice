@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>单选框与多选框</title>
+    <style>
+        input{
+            margin-left: 5%;
+        }
+        #txtBox{
+            width: 400px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+    <script src="js/2.js"></script>
+</head>
+<body>
+<form action="">
+    <div id="colorRadio">
+        <input type="radio" name="color" id="rd1" value="Red" /><span id="color1">Red</span>
+        <input type="radio" name="color" id="rd2" value="Yellow" /><span id="color2">Yellow</span>
+        <input type="radio" name="color" id="rd3" value="Blue" /><span id="color3">Blue</span>
+    </div>
+    <div id="sizeCheck">
+        <input type="checkbox" name="size" id="ch1" value="10 px" /><span id="size1">10 pt</span>
+        <input type="checkbox" name="size" id="ch2" value="12 px " /><span id="size2">12 pt</span>
+        <input type="checkbox" name="size" id="ch3" value="14 px" /><span id="size3">14 pt</span>
+    </div>
+    <input type="text" id="txtBox" disabled="disabled" /><br>
+    <input type="button" id="getValue" value="Get Value" />
+</form>
+</body>
+</html>

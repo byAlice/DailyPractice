@@ -14,6 +14,17 @@
 
 *   InvertSelection：[全选不选反选](http://byalice.github.io/DailyPractice/InvertSelection/1.html)
 
+* jQuery: 
+
+	1 [获取和设置内容](http://byalice.github.io/DailyPractice/jQuery/1.html)
+	
+	2 [单选框与多选框](http://byalice.github.io/DailyPractice/jQuery/2.html)
+	
+	3 [选择器](http://byalice.github.io/DailyPractice/jQuery/3.html)
+	
+	
+	
+
 *   JsGallery：[JS美术馆](http://byalice.github.io/DailyPractice/JsGallery/gallery.html)
 
 *   JsCalendar：[JavaScript简易日历](http://byalice.github.io/DailyPractice/JsCalendar/1.html)
