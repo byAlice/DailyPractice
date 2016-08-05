@@ -1,5 +1,9 @@
 # 此仓库用来托管我学习过程中做的练习
 
+*   Array：数组
+
+	1 [生成100个0-1000范围内的随机数，并去重排序](http://byalice.github.io/DailyPractice/Array/1.html)
+
 *   DelayTooltip：[延时提示框](http://byalice.github.io/DailyPractice/DelayTooltip/1.html)，移入显示，移出隐藏
 
 *   DigitalClock：[数字时钟](http://byalice.github.io/DailyPractice/DigitalClock/index.html)
@@ -7,8 +11,6 @@
 *   DivPermutation：[js改变div排列顺序](http://byalice.github.io/DailyPractice/DivPermutation/1.html)
 
 *   frame： [垂直框架](http://byalice.github.io/DailyPractice/frame/index.html)，分为左右两栏，左控制右
-
-*   function： [一个简单函数](http://byalice.github.io/DailyPractice/function/1.html)
 
 *   HomePage： 自己做的一个个人[网站主页](http://senyu.website/)，展示平时做的练习效果,以后用github page项目主页展示
 
