@@ -60,6 +60,8 @@
   11 [图片左右轮播](http://byalice.github.io/DailyPractice/move/11.html)
 
   12 [含缩略图轮播](http://byalice.github.io/DailyPractice/move/12.html)
+  
+  13 [轮播](http://byalice.github.io/DailyPractice/move/13.html)
 
 
 
