@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/*nav*/
 #header{
     width: 1364px;
     height: 70px;
@@ -11,26 +12,28 @@
     padding-top: 17px;
     top: 0;
     left: 0;
-    background: url("../img/icon-logo.png") no-repeat 150px center #FFF;
+   /* background: url("../img/icon-logo.png") no-repeat 70px center #FFF;*/
     border-bottom: 1px solid #d4D5D6;
 
 }
-.classify, .search{
+#logo, .classify, .search{
     float: left;
     height: 36px;
     margin-left: 70px;
 }
+/*分类*/
 .classify{
     height: 18px;
     font-size: 16px;
     margin-top: 2px;
-    margin-left: 270px;
     padding: 6px 12px;
     border:1px solid #E1E1E1;
+    cursor: pointer;
 }
 .classify-hover{
-    height: 37px;
-    border-bottom: 2px solid #FFFFFF;
+    height: 35px;
+    border-bottom: 5px solid #FFFFFF;
+    z-index: 999;
 }
 .icon-bottom{
     display: inline-block;
@@ -38,8 +41,8 @@
 .run-up{
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
-    -moz-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
 }
 .run-down{
     -webkit-transition-duration: .5s;
@@ -47,15 +50,76 @@
     -moz-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
 }
+/*隐藏的下拉菜单*/
 .more{
     width: 538px;
     height: 382px;
-    margin-left: 269px;
+    margin-left: 220px;
     margin-top: 69px;
     border:1px solid #E1E1E1;
-    background: red;
+    border-top: none;
     display: none;
+    position: relative;
+    z-index: 1;
 }
+.more div{
+    position: absolute;
+    top: 0;
+    padding-left: 20px;
+    display: inline-block;
+    height: 382px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: black;
+    font-size: 14px;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: underline;
+}
+.more-left {
+    left: 0;
+    padding-top: 38px;
+    width: 132px;
+    border-right: 1px solid #E1E1E1;
+}
+.more-left li{
+    margin-bottom: 8px;
+}
+.more-left li:nth-child(3){
+    margin-bottom: 20px;
+}
+.more-right{
+    padding-top: 28px;
+    left: 132px;
+    width: 380px;
+
+}
+.more-right p{
+    padding: 10px 0;
+    border-bottom: 1px dashed #E1E1E1;
+}
+.more-right p span{
+    display: inline-block;
+    padding:0 20px;
+    border-right: 1px solid #E1E1E1;
+}
+.more-right p span:nth-child(3){
+    border-right: none;
+}
+/*搜索框*/
 .search{
     position: relative;
 }
