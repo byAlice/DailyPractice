@@ -10,25 +10,38 @@
     position: fixed;
     box-sizing: border-box;
     padding-top: 17px;
+    font-size: 16px;
     top: 0;
     left: 0;
    /* background: url("../img/icon-logo.png") no-repeat 70px center #FFF;*/
     border-bottom: 1px solid #d4D5D6;
 
 }
-#logo, .classify, .search{
+#logo,
+.classify,
+.search,
+.new-life,
+.register,
+.login,
+.app{
     float: left;
     height: 36px;
     margin-left: 70px;
 }
+.new-life,
+.register,
+.login,
+.app{
+    margin-top: 10px;
+}
 /*分类*/
 .classify{
     height: 18px;
-    font-size: 16px;
     margin-top: 2px;
     padding: 6px 12px;
     border:1px solid #E1E1E1;
     cursor: pointer;
+    position: relative;
 }
 .classify-hover{
     height: 35px;
@@ -54,20 +67,21 @@
 .more{
     width: 538px;
     height: 382px;
-    margin-left: 220px;
-    margin-top: 69px;
+    left: 220px;
+    top: 70px;
+    background: #FFFFFF;
     border:1px solid #E1E1E1;
     border-top: none;
     display: none;
-    position: relative;
-    z-index: 1;
+    position: absolute;
+    z-index: 99999;
 }
 .more div{
     position: absolute;
-    top: 0;
+    top: 20px;
     padding-left: 20px;
     display: inline-block;
-    height: 382px;
+    height: 300px;
     box-sizing: border-box;
 }
 ul{
@@ -89,11 +103,18 @@ a:hover{
 a:active{
     text-decoration: underline;
 }
+span a:link,
+span a:visited,
+span a:hover,
+span a:active{
+    text-decoration: none;
+}
+
 .more-left {
     left: 0;
-    padding-top: 38px;
-    width: 132px;
+    margin-top: 38px;
     border-right: 1px solid #E1E1E1;
+    width: 132px;
 }
 .more-left li{
     margin-bottom: 8px;
@@ -110,6 +131,9 @@ a:active{
 .more-right p{
     padding: 10px 0;
     border-bottom: 1px dashed #E1E1E1;
+}
+.more-right p:last-child{
+    border-bottom: none;
 }
 .more-right p span{
     display: inline-block;
@@ -143,4 +167,173 @@ input {
     z-index: 999;
     cursor: pointer;
 }
+.new-life{
+    margin-left: 150px;
+}
+.new-life span:nth-child(2) {
+    display: inline-block;
+    height: 16px;
+    line-height: 10px;
+    box-sizing: border-box;
+    padding: 0 2px;
+    background: #FF4466;
+    color: #FFFFFF;
+    border: 1px solid #FF4466;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.register{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin-top: 5px;
+    line-height: 30px;
+    text-align: center;
+    background: #FF4466;
+    color: #FFFFFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.app span:nth-child(1){
+    background: url("../img/icon-phone.png") no-repeat left center;
+    display: inline-block;
+    height: 19px;
+    line-height: 19px;
+    font-size: 14px;
+    padding-left: 15px;
+}
 
+.code{
+    position: absolute;
+    border:1px solid #E1E1E1;
+    display: none;
+    top: 70px;
+    right: 130px;
+    width: 200px;
+    height: 200px;
+    font-size: 14px;
+    text-align: center;
+    z-index: 9999;
+}
+.code-img{
+    display: block;
+    margin: 10px 35px;
+}
+.register,
+.login,
+.app{
+    cursor: pointer;
+}
+/*nav end*/
+/*carousel*/
+#banner{
+    position: relative;
+    margin-top: 110px;
+    margin-left: 70px;
+    width: 460px;
+    height: 290px;
+    border: 1px solid #E1E1E1;
+    overflow: hidden;
+}
+#banner-list img{
+    border: 0;
+    width: 100%;
+    background-clip: border-box;
+}
+#banner-bg{
+    position: absolute;
+    bottom: 0;
+    width: 460px;
+    height: 80px;
+    color: #FFF;
+    background: #000;
+    filter:Alpha(opacity=30);
+    opacity: 0.3;
+    z-index: 999;
+    cursor: pointer;
+}
+#banner-info{
+    position: absolute;
+    width: 100%;
+    top: 230px;
+    left: 0;
+    height: 60px;
+    color: #FFFFFF;
+    z-index: 1000;
+    cursor: pointer;
+}
+/*#banner-text{
+    position: absolute;
+    width: 460px;
+    z-index: 1001;
+    right: 3px;
+    left: 3px;
+}*/
+#banner ul{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 5px;
+    right: 185px;
+    width: 90px;
+    list-style: none;
+    z-index: 1002;
+    text-align: center;
+}
+#banner ul li{
+    float: left;
+    display: block;
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    color: #a7a7a8;
+    background: #a7a7a8;
+    border: 1px solid #a7a7a8;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#banner ul li.active{
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background: transparent;
+}
+#banner-list a{
+    position: absolute;
+}
+#pn{
+    position: absolute;
+    width: 460px;
+    height: 290px;
+    top: 0;
+    left: 0;
+    filter:Alpha(opacity=0);
+    opacity: 0;
+    z-index: 1004;
+}
+#pn:hover{
+    filter:Alpha(opacity=100);
+    opacity: 1;
+}
+#prev,
+#next{
+    position: absolute;
+    width: 28px;
+    height: 26px;
+    background-clip: border-box;
+    top: 132px;
+    cursor: pointer;
+}
+#prev{
+    left: 20px;
+    /*background: url("../img/icon-pn.gif") no-repeat right bottom;*/
+
+}
+#next{
+    right: 20px;
+    /*background: url("../img/icon-pn.gif") no-repeat left top;*/
+
+}

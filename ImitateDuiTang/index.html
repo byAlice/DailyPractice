@@ -10,9 +10,10 @@
 
 </head>
 <body>
+<!--nav-->
 <div id="header">
     <div id="logo"><a href="#"><img src="img/icon-logo.png" alt=""></a></div>
-    <div id="classify" class="classify">
+    <div data-toggle="arrowdown" id="down1" class="classify">
         <span>分类</span>
         <span class="icon-bottom"><img src="img/icon-bottom.png" alt=""></span>
     </div>
@@ -20,8 +21,24 @@
         <input class="txt" type="text">
         <input id="icon-search" type="submit" value="">
     </div>
+    <div class="new-life">
+        <span><a href="">堆糖生活家</a></span>
+        <span>new</span>
+    </div>
+    <div>
+        <span class="register">注册</span>
+    </div>
+    <div>
+        <span class="login">登陆</span>
+    </div>
+    <div data-toggle="arrowdown" id="down2" class="app">
+        <span>手机版</span>
+        <span class="icon-bottom"><img src="img/icon-bottom.png" alt=""></span>
+    </div>
 </div>
-<div id="more" class="more">
+<!--nav end-->
+<!--hidden box-->
+<div data-toggle="hidden-box" id="menu1" class="more">
    <div class="more-left">
        <ul>
            <li><a href="">首页</a></li>
@@ -68,6 +85,36 @@
        </p>
 
    </div>
+</div>
+<div data-toggle="hidden-box" id="menu2" class="code">
+    <img class="code-img" src="img/icon-code.png" alt="二维码">
+    <p>扫一扫下载手机客户端</p>
+</div>
+<!--hidden-box end-->
+<!--carousel-->
+<div>
+    <div id="banner">
+        <div id="pn">
+            <a id="prev"><img src="img/prev.png" alt=""></a>
+            <a id="next"><img src="img/next.png" alt=""></a>
+        </div>
+        <div id="banner-bg"></div>
+        <p id="banner-info"></p>
+        <ul>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div id="banner-list">
+            <a href="#" target="_blank"><img src="picture/banner1.jpeg" alt="总有一个理由让你微笑"></a>
+            <a href="#" target="_blank"><img src="picture/banner2.jpeg" alt="养株小植物，你就能看得见时间"></a>
+            <a href="#" target="_blank"><img src="picture/banner3.jpeg" alt="永不退潮的格子"></a>
+            <a href="#" target="_blank"><img src="picture/banner4.jpeg" alt="捕捉旧时光"></a>
+            <a href="#" target="_blank"><img src="picture/banner5.jpeg" alt="还想去吹吹海风"></a>
+        </div>
+    </div>
 </div>
 </body>
 </html>
