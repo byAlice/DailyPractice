@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    padding: 0 150px;
+}
 /*nav*/
 #header{
     width: 1364px;
@@ -10,7 +13,7 @@
     position: fixed;
     box-sizing: border-box;
     padding-top: 17px;
-    font-size: 16px;
+    font-size: 14px;
     top: 0;
     left: 0;
    /* background: url("../img/icon-logo.png") no-repeat 70px center #FFF;*/
@@ -26,7 +29,10 @@
 .app{
     float: left;
     height: 36px;
-    margin-left: 70px;
+    margin-left: 50px;
+}
+#logo{
+    margin-left: 150px;
 }
 .new-life,
 .register,
@@ -37,6 +43,7 @@
 /*分类*/
 .classify{
     height: 18px;
+    margin-left: 30px;
     margin-top: 2px;
     padding: 6px 12px;
     border:1px solid #E1E1E1;
@@ -167,8 +174,19 @@ input {
     z-index: 999;
     cursor: pointer;
 }
+#header div:nth-child(4){
+    border-left:2px solid rgba(232, 232, 233, 0.65) ;
+    padding: 0 0 0 20px;
+}
+#header div:nth-child(n+5){
+    border-left:1px solid rgba(232, 232, 233, 0.65) ;
+    padding: 0 0 0 20px;
+}
 .new-life{
-    margin-left: 150px;
+    margin-top: 4px;
+    line-height: 30px;
+    margin-left: 162px;
+    height: 30px;
 }
 .new-life span:nth-child(2) {
     display: inline-block;
@@ -183,11 +201,11 @@ input {
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
-.register{
+.register span{
     display: inline-block;
     width: 60px;
     height: 30px;
-    margin-top: 5px;
+    margin-top: -10px;
     line-height: 30px;
     text-align: center;
     background: #FF4466;
@@ -225,15 +243,18 @@ input {
 .login,
 .app{
     cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 4px;
+    margin-left: 20px;
 }
 /*nav end*/
 /*carousel*/
 #banner{
     position: relative;
     margin-top: 110px;
-    margin-left: 70px;
-    width: 460px;
-    height: 290px;
+    width: 514px;
+    height: 300px;
     border: 1px solid #E1E1E1;
     overflow: hidden;
 }
@@ -245,7 +266,7 @@ input {
 #banner-bg{
     position: absolute;
     bottom: 0;
-    width: 460px;
+    width: 514px;
     height: 80px;
     color: #FFF;
     background: #000;
@@ -257,26 +278,19 @@ input {
 #banner-info{
     position: absolute;
     width: 100%;
-    top: 230px;
+    top: 235px;
     left: 0;
     height: 60px;
     color: #FFFFFF;
     z-index: 1000;
     cursor: pointer;
 }
-/*#banner-text{
-    position: absolute;
-    width: 460px;
-    z-index: 1001;
-    right: 3px;
-    left: 3px;
-}*/
 #banner ul{
     position: absolute;
     margin: 0;
     padding: 0;
-    bottom: 5px;
-    right: 185px;
+    bottom: 8px;
+    right: 222px;
     width: 90px;
     list-style: none;
     z-index: 1002;
@@ -286,19 +300,21 @@ input {
     float: left;
     display: block;
     margin-left: 5px;
-    width: 10px;
-    height: 10px;
+    margin-bottom: 2px;
+    padding: 4px;
     color: #a7a7a8;
     background: #a7a7a8;
     border: 1px solid #a7a7a8;
-    border-radius: 5px;
+    border-radius: 50%;
     cursor: pointer;
 
 }
 #banner ul li.active{
-    width: 12px;
-    height: 12px;
-    border-radius: 6px;
+    position: relative;
+    padding: 5px;
+    bottom: 2px;
+    border-radius: 50%;
+    border: 2px solid #a7a7a8;
     background: transparent;
 }
 #banner-list a{
@@ -306,8 +322,8 @@ input {
 }
 #pn{
     position: absolute;
-    width: 460px;
-    height: 290px;
+    width: 514px;
+    height: 300px;
     top: 0;
     left: 0;
     filter:Alpha(opacity=0);
@@ -324,7 +340,7 @@ input {
     width: 28px;
     height: 26px;
     background-clip: border-box;
-    top: 132px;
+    top: 137px;
     cursor: pointer;
 }
 #prev{
@@ -337,3 +353,71 @@ input {
     /*background: url("../img/icon-pn.gif") no-repeat left top;*/
 
 }
+/*carousel end*/
+/*社区热点*/
+.community{
+    width: 514px;
+    height: 300px;
+    font-size: 14px;
+    background: #FFFFFF;
+    border: 1px solid rgba(232, 232, 233, 0.65);
+    color: #000;
+    position: absolute;
+    /*margin-left: 600px;*/
+    right: 150px;
+    top: 110px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.community ul li{
+    padding: 12px;
+}
+.community ul>li:nth-child(1){
+    border-bottom: 1px solid rgba(232, 232, 233, 0.65);
+    font-size: 18px;
+
+}
+.community ul>li:nth-child(n+3){
+    border-bottom: 1px dashed rgba(232, 232, 233, 0.65);
+
+}
+.community ul>li:nth-child(5){
+    border-bottom: none;
+
+}
+#list{
+    margin-left: -10px;
+    box-sizing: border-box;
+
+    font-size: 12px;
+    border-bottom: 1px dashed rgba(232, 232, 233, 0.65);
+
+}
+#list ul>li{
+    display: inline-block;
+    padding: 0 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    border-bottom: none;
+    border-right: 1px solid rgba(232, 232, 233, 0.65);
+}
+#activity,
+#sift{
+    display: inline-block;
+    background: red;
+    margin-left: 6px;
+    padding: 3px;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+#activity{
+    background: #ffbb33;
+}
+#sift{
+    background: #ff4466;
+}
+.content1{
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(232, 232, 233, 0.65);
+}
+/*社区热点 end*/
