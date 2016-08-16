@@ -431,7 +431,7 @@ input {
 /*社区热点 end*/
 /*专辑精选、单品推荐，单人推荐*/
 h2{
-    margin: 40px 0;
+    margin: 40px 0 90px;
     position: relative;
 }
 h2 span{
@@ -460,72 +460,56 @@ h2 span:nth-child(2){
 
 }
 .recommend-container,
-.recommend-container-special1,
-.recommend-container-special2 {
+.recommend-box1,
+.recommend-box2 {
     display: inline-block;
-    margin-top: 50px;
     margin-left: 37px;
     width: 224px;
-    height: 330px;
     background: #FFFFFF;
     border: 1px solid rgba(232, 232, 233, 0.65);
     position: relative;
 }
-.recommend-container-special1 {
-    height: 310px;
-}
-.recommend-container-special2 {
-    height: 280px;
-}
 .recommend div:nth-child(1){
     margin-left: 0;
-}
-.special1 div:nth-child(1){
-    margin-left:0;
-}
-.special2 div:nth-child(1){
-    margin-left:0;
 }
 .recommend-container:before{
     content: "";
     display: block;
     position: absolute;
-    top: 333px;
+    top: 4px;
     left: 5px;
     width: 214px;
-    height: 1px;
+    height: 100%;
     border-bottom: 1px solid rgba(202, 202, 203, 0.65);
 }
 .recommend-container:after{
     content: "";
     display: block;
     position: absolute;
-    top: 331px;
+    top: 2px;
     left: 2px;
     width: 220px;
-    height: 1px;
+    height: 100%;
     border-bottom: 1px solid rgba(211, 211, 212, 0.65);
 }
-.recommend-container-special1:before,
-.recommend-container-special2:before{
+.recommend-box1:before,
+.recommend-box2:before{
     content: "";
     display: block;
     position: absolute;
-    top: 310px;
+    top: 2px;
     left: 0;
-    width: 224px;
-    height: 1px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
     background-color: rgba(202, 202, 203, 0.57);
-    border: 1px solid rgba(212, 212, 213, 0.53);
+    border-bottom: 1px solid rgba(212, 212, 213, 0.53);
 }
-.recommend-container-special2:before{
-    top: 280px;
-}
-.recommend-img-box {
+.recommend-img-box1 {
     width: 224px;
     height: 224px;
 }
-.recommend-special-box2{
+.recommend-img-box2 {
     width: 224px;
     height: 126px;
 }
@@ -535,7 +519,7 @@ h2 span:nth-child(2){
     display: block;
     position: relative;
 }
-.recommend-img-box a:after{
+.recommend-img-box1 a:after{
     position: absolute;
     display: block;
     content: "";
@@ -551,42 +535,51 @@ h2 span:nth-child(2){
     transition: .2s ease-in;
 
 }
-.recommend-img-box a:hover:after{
+.recommend-img-box1 a:hover:after{
     filter: Alpha(opacity:10);
     opacity: 0.1;
 }
-.recommend-special-img2{
-    display: inline-block;
+.recommend-img-small {
+    display: block;
     width: 100%;
     height: 126px;
 }
-.recommend-container h5{
-    margin:16px auto 32px 12px;
+.recommend-container h5,
+.recommend-box1 h5{
+    margin-left: 12px;
+    margin-top: 16px;
     font-size: 16px;
     font-weight: normal;
 }
-.recommend-container-special1 h5{
-    margin:16px 12px;
-    font-size: 16px;
-    font-weight: 400;
+.recommend-box2 h5{
+    text-align: center;
+    margin-top: 66px;
+    margin-bottom: 6px;
 }
-.recommend-container p{
+.recommend-container h5{
+    margin-bottom: 30px;
+}
+.recommend-box1 h5{
+    margin-bottom:16px;
+}
+.recommend-container p,
+.recommend-box1 p{
     font-size: 14px;
     margin-left: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: rgba(139, 139, 140, 0.99);
-
 }
-.recommend-container-special1 p{
+.recommend-box2 p{
+    text-align: center;
     font-size: 14px;
-    margin-left: 12px;
+    margin-bottom: 6px;
     color: rgba(139, 139, 140, 0.99);
 }
-.recommend-container-special1 p a{
-    display: inline-block;
+.recommend-box1 p a{
+    display: block;
     float: right;
     background: #ffbb33;
-    margin-top: -6px;
+    margin-top:-6px;
     margin-right: 6px;
     padding: 6px 10px;
     border-radius: 3px;
@@ -602,7 +595,6 @@ h2 span:nth-child(2){
     font-size: 12px;
     font-weight: normal;
     color: rgba(139, 139, 140, 0.99);
-
 }
 #no-bg a{
     font-size: 12px;
@@ -628,6 +620,7 @@ h2 span:nth-child(2){
 #no-bg a:active{
     text-decoration: underline;
 }
+/*头像*/
 .portrait{
     width: 90px;
     height: 90px;
@@ -637,19 +630,71 @@ h2 span:nth-child(2){
     top: 77px;
     left: 70px;
 }
-.recommend-container-special2 h5{
-    text-align: center;
-    margin-top: 66px;
-    margin-bottom: 6px;
-}
-
-.recommend-container-special2 p{
-    text-align: center;
-    font-size: 14px;
-    margin-bottom: 6px;
-    color: rgba(139, 139, 140, 0.99);
-}
+/*擅长的领域*/
 .adept{
     color:#000000;
 }
+/*大家都在逛*/
+#recommend{
+    position: relative;
+    font-size: 14px;
+}
+.recommend-box{
+    width: 224px;
+    float: left;
+    margin-right: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(232, 232, 233, 0.65);
+    border-bottom: 3px solid rgba(212, 212, 213, 0.53);
+}
+.recommend-box p{
+    margin: 12px;
+    line-height: 20px;
+    word-break: break-all;
+}
+.recommend-img-box{
+    width: 100%;
+    height: auto;
+}
+.img{
+    width: 100%;
+}
+.left1,
+.left2,
+.right
+{
+    display: inline-block;
+    overflow: hidden;
+    color: rgba(139, 139, 140, 0.99);
+}
+.left1{
+    margin-left: 10px;
+    width: 22px;
+    padding-left: 20px;
+    background: url("../img/sprite-favour.png") no-repeat 0 -51px;
+}
+.left2{
+    margin-left: 10px;
+    width: 22px;
+    padding-left: 20px;
+    background: url("../img/sprite-favour.png") no-repeat -35px -51px;
+}
+.right{
+    margin-left: 30px;
+}
+.right a{
+    color: red;
+}
+.box-foot p{
+    margin-left: 50px;
+    color: rgba(139, 139, 140, 0.99);
+}
 
+.box-foot span a img{
+    display: block;
+    float: left;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
