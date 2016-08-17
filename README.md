@@ -14,6 +14,8 @@
 
 *   HomePage： 自己做的一个个人[网站主页](http://senyu.website/)，展示平时做的练习效果,以后用github page项目主页展示
 
+*   ImitateDuiTang： [仿堆糖](http://byalice.github.io/DailyPractice/ImitateDuiTang/index.html)运用jQuery实现瀑布流
+
 *   InvertSelection：[全选不选反选](http://byalice.github.io/DailyPractice/InvertSelection/1.html)
 
 * jQuery: 
