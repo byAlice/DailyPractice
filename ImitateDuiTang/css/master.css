@@ -4,16 +4,25 @@
     padding: 0;
 }
 body{
-
     background: #F1F2F3;
+}
+.header{
+    width: 956px;
+    height: 70px;
+    margin: 0 auto;
 }
 .content1,
 .recommend{
-    margin: 40px 150px;
+    width: 956px;;
+    margin: 40px auto;
+}
+.content1{
+    margin-top: 70px;
+    position: relative;
 }
 /*nav*/
 #header{
-    width: 1364px;
+    width: 100%;
     height: 70px;
     position: fixed;
     box-sizing: border-box;
@@ -25,19 +34,18 @@ body{
     background: #FFFFFF;
     border-bottom: 1px solid #d4D5D6;
 }
-#logo,
+#logo{
+    float: left;
+    height: 36px;
+}
 .classify,
 .search,
-.new-life,
 .register,
 .login,
 .app{
     float: left;
     height: 36px;
     margin-left: 50px;
-}
-#logo{
-    margin-left: 150px;
 }
 .new-life,
 .register,
@@ -79,7 +87,7 @@ body{
 .more{
     width: 538px;
     height: 382px;
-    left: 220px;
+    left: 306px;
     top: 70px;
     background: #FFFFFF;
     border:1px solid #E1E1E1;
@@ -181,16 +189,17 @@ input {
 }
 #header div:nth-child(4){
     border-left:2px solid rgba(232, 232, 233, 0.65) ;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 21px;
 }
 #header div:nth-child(n+5){
     border-left:1px solid rgba(232, 232, 233, 0.65) ;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 23px;
 }
 .new-life{
+    float: left;
     margin-top: 4px;
     line-height: 30px;
-    margin-left: 162px;
+    margin-left: 70px;
     height: 30px;
 }
 .new-life span:nth-child(2) {
@@ -227,14 +236,16 @@ input {
     font-size: 14px;
     padding-left: 15px;
 }
-
+.app{
+    position: relative;
+}
 .code{
     position: absolute;
     border:1px solid #E1E1E1;
     background: #FFFFFF;
     display: none;
-    top: 70px;
-    right: 130px;
+    top: 69px;
+    right: 200px;
     width: 200px;
     height: 200px;
     font-size: 14px;
@@ -259,7 +270,7 @@ input {
 #banner{
     position: relative;
     margin-top: 110px;
-    width: 514px;
+    width: 470px;
     height: 300px;
     border: 1px solid #E1E1E1;
     overflow: hidden;
@@ -273,7 +284,7 @@ input {
 #banner-bg{
     position: absolute;
     bottom: 0;
-    width: 514px;
+    width: 470px;
     height: 80px;
     color: #FFF;
     background: #000;
@@ -297,7 +308,7 @@ input {
     margin: 0;
     padding: 0;
     bottom: 8px;
-    right: 222px;
+    right: 200px;
     width: 90px;
     list-style: none;
     z-index: 1002;
@@ -330,11 +341,6 @@ input {
 }
 #banner:hover a#prev,
 #banner:hover a#next{
-  /*  position: absolute;
-    width: 514px;
-    height: 300px;
-    top: 0;
-    left: 0;*/
     filter:Alpha(opacity=100);
     opacity: 1;
 
@@ -357,27 +363,22 @@ input {
 }
 #prev{
     left: 20px;
-    /*background: url("../img/icon-pn.gif") no-repeat right bottom;*/
-
 }
 #next{
     right: 20px;
-    /*background: url("../img/icon-pn.gif") no-repeat left top;*/
-
 }
 /*carousel end*/
 /*社区热点*/
 .community{
-    width: 514px;
+    width: 470px;
     height: 300px;
     font-size: 14px;
     background: #FFFFFF;
     border: 1px solid rgba(232, 232, 233, 0.65);
     color: #000;
     position: absolute;
-    /*margin-left: 600px;*/
-    right: 150px;
-    top: 110px;
+    left: 494px;
+    top: 0;
     box-sizing: border-box;
     padding: 10px 20px;
 }
@@ -435,7 +436,8 @@ input {
 /*社区热点 end*/
 /*专辑精选、单品推荐，单人推荐*/
 h2{
-    margin: 40px 150px 90px 150px;
+    width: 956px;
+    margin: 40px auto 90px;
     position: relative;
 }
 h2 span{
@@ -461,14 +463,13 @@ h2 span:nth-child(2){
 .recommend {
     padding-bottom: 40px;
     border-bottom: 1px solid rgba(190, 190, 191, 0.65);
-
 }
 .recommend-container,
 .recommend-box1,
 .recommend-box2 {
     display: inline-block;
-    margin-left: 37px;
-    width: 224px;
+    margin-left: 10px;
+    width: 222px;
     background: #FFFFFF;
     border: 1px solid rgba(232, 232, 233, 0.65);
     position: relative;
@@ -510,11 +511,11 @@ h2 span:nth-child(2){
     border-bottom: 1px solid rgba(212, 212, 213, 0.53);
 }
 .recommend-img-box1 {
-    width: 224px;
+    width: 222px;
     height: 224px;
 }
 .recommend-img-box2 {
-    width: 224px;
+    width: 222px;
     height: 126px;
 }
 .recommend-img {
@@ -640,18 +641,24 @@ h2 span:nth-child(2){
 }
 /*大家都在逛*/
 #recommend{
+    width: 956px;;
+    margin: 40px auto;
     position: relative;
     font-size: 14px;
-    margin: 40px 150px;
+    /*margin: 40px 150px;*/
 }
+
 .recommend-box{
     float: left;
     /*用padding而不用margin，margin在这里容易出bug*/
-    padding:0 45px 40px 0;
+    padding:0 24px 40px 0;
     background: #F1F2F3;
 }
+#recommend div:nth-child(4){
+    padding-right: 0;
+}
 .box{
-    width: 224px;
+    width: 222px;
     background: #FFFFFF;
     border: 1px solid rgba(232, 232, 233, 0.65);
     box-shadow: 0 3px 5px rgba(232, 232, 233, 0.65);
@@ -813,22 +820,22 @@ h2 span:nth-child(2){
 #to-top a:nth-child(3):hover{
     background: url("../img/to-top.png") 0 -244px;
 }
-
+/*卡片上点赞按钮*/
 .praise{
-    display: none;
+    display: block;
     position: absolute;
-    padding: 15px 5px;
+    margin: 15px 5px;
     width: 224px;
-    height: 40px;
+    height: 32px;
     background: transparent;
-    z-index: 2;
+    /*z-index: 1;*/
 }
 .praise span{
     display: inline-block;
     height: 24px;
     padding: 4px 10px;
     border-radius: 5px;
-    z-index: 999;
+    /*z-index: 999;*/
 }
 .p-1{
     width: 70px;
@@ -873,8 +880,8 @@ h2 span:nth-child(2){
     background: #f0f0f0;
 }
 .p-2{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .p-3{
-    margin-left: 10px;
+    margin-left: 5px;
 }

@@ -17,14 +17,7 @@ $(window).on('load',function () {
     });
     /*大家都在逛卡片点赞收集按钮*/
     $('.box').hover(
-
                 function () {
-                    $('.box').before(
-                        '<div class="praise">'+
-                        '<span href="" class="p-1"><i></i>收集  8</span>'+
-                        '<span href="" class="p-2"><i></i></span>'+
-                        '<span href="" class="p-3"><i></i></span>'+
-                        '</div>');
                  var s=$(this).siblings('.praise');
                  s.css('display','block');
                 },
@@ -32,7 +25,20 @@ $(window).on('load',function () {
                     var s = $(this).siblings('.praise');
                     s.css('display', 'none');
                 }
-            );
+    );
+    $('.praise').hover(function () {
+        $('.p-1').hover(function (event) {
+            $(this).css('background-color','red');
+            event.stopPropagation();
+        },function (event) {
+            $(this).css('background-color','#ff4466');
+            event.stopPropagation();
+
+        })
+    },function () {
+        return;
+    });
+
 });
 function waterfall(parent,child) {
     var boxs=$('#recommend>div');
@@ -40,7 +46,7 @@ function waterfall(parent,child) {
     /*console.log($(window).width());*/
     var cols=Math.floor(($(window).width()-200)/w);  //一行能容纳的盒子个数
     $('#recommend').css({
-      'width':w*cols
+      'width':w*cols-24+'px'
     });
     var hArr=[]; //用于储存每列中所有块框相加后的高度
 
