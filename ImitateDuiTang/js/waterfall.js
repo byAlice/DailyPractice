@@ -37,31 +37,15 @@ function waterfall(parent,child) {
             /*console.log(num);*/
             $(window).scroll(function ()
             {
-              /*  var outH=boxs.eq(num).outerHeight();*/
-
-             /*   while(num>3){
-                    var outH2=boxs.eq(num-4).outerHeight();
-                    var outhh=outH+outH2;
-                    num=num-4;
-                }
-*/
-
-
-
-
-
-
+                var pt=boxs.eq(num).position().top;
+                var ph=$('.recommend-box').eq(num).outerHeight();
+                /*var xx=Math.floor(num/4);*/
+               /* console.log();*/
                 var stp = $(this).scrollTop();
-                var mt=stp-1800;
-              /*  var xx=Math.floor(num/4);
-                var xh=xx**/
-               /* console.log(hArr[s.index]);*/
-
-                /*console.log(outH2);*/
-             /* var hh=$('.recommend-box').eq(num).outerHeight();
-                console.log(hh);*/
-                if(stp>1800&&stp<1800+hArr[num]){
-                    $('.praise').eq(num).css('marginTop',mt+30+'px');
+               /* console.log(stp);*/
+                var mt=stp-1800-pt;
+                if(stp>=1800&&stp<=(1800+pt+ph)){
+                    $('.praise').eq(num).css('top',mt+40+'px');
                 }
                 else{
                     $('.praise').eq(num).css('marginTop',15+'px');
@@ -78,7 +62,7 @@ function waterfall(parent,child) {
     },function () {
         $(this).css('display','none');
     });
-
+    /*确定卡片位置*/
     boxs.each(function (index,value) {
         var h=boxs.eq(index).outerHeight();
         if(index<cols){
@@ -96,6 +80,7 @@ function waterfall(parent,child) {
                 });
             hArr[minHIndex]+=h;
         }
+        /*撑开盒子*/
         var maxH=Math.max.apply(null,hArr);
         var maxHIndex=$.inArray(maxH,hArr);
         $('#recommend').css({
