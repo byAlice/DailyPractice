@@ -4,10 +4,12 @@
 $(window).on('load',function () {
    waterfall('recommend','recommend-box');
    /* var dataInt={'data':}*/
+
    /*to-top按钮*/
     $(window).scroll(function ()
     {
         var st = $(this).scrollTop();
+        /*console.log(st);*/
         if(st>500){
             $('#to-top').css('display','block');
         }
@@ -15,30 +17,6 @@ $(window).on('load',function () {
             $('#to-top').css('display','none');
         }
     });
-    /*大家都在逛卡片点赞收集按钮*/
-    $('.box').hover(
-                function () {
-                 var s=$(this).siblings('.praise');
-                 s.css('display','block');
-                },
-                function () {
-                    var s = $(this).siblings('.praise');
-                    s.css('display', 'none');
-                }
-    );
-    $('.praise').hover(function () {
-        $('.p-1').hover(function (event) {
-            $(this).css('background-color','red');
-            event.stopPropagation();
-        },function (event) {
-            $(this).css('background-color','#ff4466');
-            event.stopPropagation();
-
-        })
-    },function () {
-        return;
-    });
-
 });
 function waterfall(parent,child) {
     var boxs=$('#recommend>div');
@@ -49,6 +27,57 @@ function waterfall(parent,child) {
       'width':w*cols-24+'px'
     });
     var hArr=[]; //用于储存每列中所有块框相加后的高度
+
+    /*大家都在逛卡片点赞收集按钮*/
+    $('.box').hover(
+        function () {
+            var s=$(this).siblings('.praise');
+            s.css('display','block');
+            var num=s.index('.praise');
+            /*console.log(num);*/
+            $(window).scroll(function ()
+            {
+              /*  var outH=boxs.eq(num).outerHeight();*/
+
+             /*   while(num>3){
+                    var outH2=boxs.eq(num-4).outerHeight();
+                    var outhh=outH+outH2;
+                    num=num-4;
+                }
+*/
+
+
+
+
+
+
+                var stp = $(this).scrollTop();
+                var mt=stp-1800;
+              /*  var xx=Math.floor(num/4);
+                var xh=xx**/
+               /* console.log(hArr[s.index]);*/
+
+                /*console.log(outH2);*/
+             /* var hh=$('.recommend-box').eq(num).outerHeight();
+                console.log(hh);*/
+                if(stp>1800&&stp<1800+hArr[num]){
+                    $('.praise').eq(num).css('marginTop',mt+30+'px');
+                }
+                else{
+                    $('.praise').eq(num).css('marginTop',15+'px');
+                }
+            })
+        },
+        function () {
+            var s = $(this).siblings('.praise');
+            s.css('display', 'none');
+        }
+    );
+    $('.praise').hover(function () {
+        $(this).css('display','block');
+    },function () {
+        $(this).css('display','none');
+    });
 
     boxs.each(function (index,value) {
         var h=boxs.eq(index).outerHeight();
