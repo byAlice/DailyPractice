@@ -1,0 +1,205 @@
+.container{
+    width: 600px;
+    height: 754px;
+    margin: 0 auto;
+    border: 1px solid #080808;
+}
+.header{
+    width: 576px;
+    height: 100px;
+    margin:0 auto;
+    background: #FFFFFF;
+    border-bottom: 1px solid #d3d3d3;
+}
+.avatar{
+    margin: 10px 30px 10px 18px;
+    width: 80px;
+    height: 80px;
+    float:left
+}
+.avatar img{
+    display:inline-block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.message{
+    width: 436px;
+    height: 70px;
+    float:left;
+   
+
+}
+.message ul{
+    margin:15px auto;
+    padding:0;
+}
+.message ul li{
+    display:inline-block;
+    /*height: 20px;*/
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+
+}
+.message ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.message ul li:nth-child(2n+1){
+    width:146px;
+}
+.message ul li:nth-child(2n+2){
+    width:240px;
+}
+
+.message li i{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: -20%;
+
+}
+.message li i img{
+    width: 20px;
+    height: 20px;
+
+}
+.content{
+    width: 600px;
+    height: 645px;
+    float: left;
+}
+.left{
+    float: left;
+    width: 400px;
+    height: 645px;
+    /*background: red;*/
+    border-right:1px solid #0C4E7C;
+}
+.right{
+    float: left;
+    margin-top: -645px;
+    margin-left: 400px;
+    width: 198px;
+    height: 645px;
+    /*background: green;*/
+    /*border:1px solid #0C4E7C;*/
+}
+/*skill*/
+.clear{
+    clear: both;
+    zoom: 1;
+}
+h4{
+
+    margin-left: 10px;
+    margin-top: 15px;
+}
+@-webkit-keyframes toggle {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes toggle {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.skill{
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+.progress-ring {
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+}
+.progress-ring:after{
+    font-size: 16px;
+    position: absolute;
+    top: 85px;
+}
+.progress-ring:nth-child(1):after{
+    content: 'html(5)';
+    left: 15px;
+}
+.progress-ring:nth-child(2):after{
+    content: 'css(3)';
+    left: 20px;
+}
+.progress-ring:nth-child(3):after{
+    content: 'javascript';
+    left: -4px;
+}
+.progress-ring:nth-child(4):after{
+    content: 'jQuery';
+    left: 18px;
+}
+.progress-ring:nth-child(5):after{
+    content: 'Bootstrap';
+    left: 4px;
+}
+.progress-ring:nth-child(6):after{
+    content: 'less';
+    left: 25px;
+}
+.progress-ring:nth-child(7):after{
+    content: 'PS';
+    left: 34px;
+}
+.progress-ring:nth-child(8):after{
+    content: 'webstorm';
+    left: 6px;
+}
+.progress-ring div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    /* 圆环宽高，可自定义 */
+    border: 10px solid transparent;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.progress-ring .progress-left, .progress-ring .progress-right, .progress-ring .progress-cover {
+    clip: rect(0 40px 80px 0);
+    /* rect( [0 | <width/2> | <height> | 0] ) */
+}
+.progress-ring .progress-right {
+    opacity: 0;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.progress-ring .progress-text {
+    border: none;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: #949494;
+    /* 进度文字颜色 */
+    line-height: 80px;
+}
+.progress-ring .progress-percent {
+    font-size: .30em;
+    font-style: italic;
+    font-family: "Microsoft Yahei", sans-serif;
+}
