@@ -203,3 +203,88 @@ h4{
     font-style: italic;
     font-family: "Microsoft Yahei", sans-serif;
 }
+/*demo*/
+.list{
+    position: relative;
+    margin: 20px auto ;
+}
+#demo1{
+    background: url("../img/works01.jpg") center center;
+}
+#demo2{
+    background: url("../img/works02.jpg") center center;
+}
+#demo3{
+    background: url("../img/works03.jpg") center center;
+}
+#demo4{
+    background: url("../img/works04.jpg") center center;
+}
+.demo{
+    width: 70px;
+    height: 50px;
+    margin-left: 15px;
+    position: relative;
+    -webkit-background-size: 50px 70px;
+    background-size:50px  70px;
+}
+.demo:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+    background: #f2f2f2;
+    box-shadow: 5px 5px 5px #c6c6c6;
+    z-index: -1;
+}
+/*.demo:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 20px;
+    border: solid;
+    border-width: 0 20px 20px 20px;
+    border-color:transparent transparent #cdcfd3 transparent ;
+    top: 25px;
+    left: 16px;
+    z-index: -2;
+}*/
+.detail{
+    position: absolute;
+    margin-left: 110px;
+    top: 0;
+    width: 270px;
+    height: 50px;
+    background: #fff;
+
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+
+    quotes: "『""』";
+}
+.detail a{
+    text-decoration: none;
+    color: #ff615d;
+    font-weight: 600;
+}
+.detail:before{
+    content: open-quote;
+    position: absolute;
+    display: block;
+    height: 15px;
+    top: 0;
+    left: 0;
+}
+.detail:after{
+    content: close-quote;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
