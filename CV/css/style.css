@@ -1,8 +1,8 @@
 .container{
     width: 600px;
-    height: 754px;
+    height: 1020px;
     margin: 0 auto;
- /*   border: 1px solid #080808;*/
+   /* border: 1px solid #080808;*/
 }
 .header{
     width: 576px;
@@ -27,8 +27,6 @@
     width: 436px;
     height: 70px;
     float:left;
-   
-
 }
 .message ul{
     margin:15px auto;
@@ -65,11 +63,13 @@
     height: 20px;
 
 }
+/*内容部分*/
 .content{
     width: 600px;
     height: 625px;
     float: left;
 }
+/*左右分区*/
 .left{
     float: left;
     width: 400px;
@@ -79,10 +79,9 @@
     float: left;
     margin-top: -625px;
     margin-left: 400px;
+    position: relative;
     width: 198px;
     height: 625px;
-    /*background: green;*/
-    /*border:1px solid #0C4E7C;*/
 }
 /*skill*/
 .clear{
@@ -291,11 +290,42 @@ h4{
     bottom: 0;
     right: 0;
 }
+/*技能明细*/
+.right ul{
+    margin: 0 6px 0 20px;
+    padding: 0;
+}
 .right ul li{
+    font-size: 15px;
+    margin: 10px;
+}
+.right:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 850px;
+    width: 2px;
+    border-left: 1px solid #d3d3d3;
+}
+/*自我评价、时光轴*/
+.c-left{
+    width: 400px;
+    float: left;
+}
+.c-left ul li{
     list-style: circle;
     font-size: 16px;
     line-height: 20px;
     margin: 25px 0;
+}
+.c-right{
+    width: 100px;
+    float: left;
+    margin-top: -110px;
+    margin-left: 10px;
+    /*position: relative;*/
 }
 .time{
     float: left;
@@ -363,8 +393,16 @@ h4{
     text-decoration: none;
     color: #a30fe1;
 }
+/*感谢*/
 .footer{
+    width: 96%;
+    margin: 0 auto;
+    border-top: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    padding-top: 5px;
     font-size: 14px;
+    line-height: 18px;
     color: #4e5668;
     text-align: center;
+    position: relative;
 }

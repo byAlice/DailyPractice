@@ -4,6 +4,8 @@
 
 	1 [生成100个0-1000范围内的随机数，并去重排序](http://byalice.github.io/DailyPractice/Array/1.html)
 
+*   CV：[简历精简版](http://byalice.github.io/DailyPractice/CV/index.html),可打印精简版简历
+
 *   DelayTooltip：[延时提示框](http://byalice.github.io/DailyPractice/DelayTooltip/1.html)，移入显示，移出隐藏
 
 *   DigitalClock：[数字时钟](http://byalice.github.io/DailyPractice/DigitalClock/index.html)
