@@ -1,4 +1,7 @@
-;
+/**
+ * Created by alice on 2016/8/29.
+ */
+
 (function ($) {
     $.fn.loadingRing = function () {
         var defaultOpt = {
