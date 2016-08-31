@@ -48,11 +48,13 @@
             $target.find('.progress-left, .progress-right').css('border-color', progressColor);
 
             $target.find('.progress-left').css({
+                //将百分比转化为进度条转动的距离
                 'transform': 'rotate(' + percent * 3.6 + 'deg)',
                 '-o-transform': 'rotate(' + percent * 3.6 + 'deg)',
                 '-ms-transform': 'rotate(' + percent * 3.6 + 'deg)',
                 '-moz-transform': 'rotate(' + percent * 3.6 + 'deg)',
                 '-webkit-transform': 'rotate(' + percent * 3.6 + 'deg)',
+                //进度条转动持续时间
                 'transition': 'transform ' + duration + 'ms linear',
                 '-o-transition': '-o-transform ' + duration + 'ms linear',
                 '-ms-transition': '-ms-transform ' + duration + 'ms linear',
@@ -61,13 +63,16 @@
             });
 
             if (percent > 50) {
+                //转过50%后，右半边进度条显示，左半边遮罩隐藏
                 var animation = 'toggle ' + (duration * 50 / percent) + 'ms';
                 $target.find('.progress-right').css({
+                    //初态是opacity：0；动画周期结束后为opacity：1；
                     'opacity': 1,
                     'animation': animation,
                     'animation-timing-function': 'step-end'
                 });
                 $target.find('.progress-cover').css({
+                    //初态是opacity：1；动画周期结束后为opacity：0；
                     'opacity': 0,
                     'animation': animation,
                     'animation-timing-function': 'step-start'
