@@ -13,23 +13,33 @@
         $(this).each(function () {
             var $target = $(this);
             var color = $target.data('color'); // 颜色
-            var percent = parseInt($target.data('percent'), 10); // 百分比
+            var percent = parseInt($target.data('percent'), 10); // 百分比(以十进制解析)
             var duration = parseFloat($target.data('duration'), 10) * 1000; // 持续时间
             var trackColor, progressColor;
             if (color && color.split(',').length === 2) {
-                var colorSet = color.split(',');
-                trackColor = colorSet[0];
-                progressColor = colorSet[1];
+                var colorSet = color.split(',');    //颜色存入数组中
+                trackColor = colorSet[0];   //轨道颜色
+                progressColor = colorSet[1];    //进度条颜色
             } else {
+                //如果没有指定颜色值，将采用默认值
                 trackColor = defaultOpt.trackColor;
                 progressColor = defaultOpt.progressColor;
             }
             if (!percent)
+            //如果没有指定进度条目标值，将采用默认值
                 percent = defaultOpt.percent;
             if (!duration)
+            //如果没有指定进度持续时间，将采用默认值
                 duration = defaultOpt.duration;
 
-            $target.append('<div class="progress-track"></div><div class="progress-left"></div><div class="progress-right"></div><div class="progress-cover"></div><div class="progress-text"><span class="progress-num">' + percent +'</span><span class="progress-percent">%</span></div>');
+            $target.append('<div class="progress-track"></div>' +
+                           '<div class="progress-left"></div>' +
+                           '<div class="progress-right"></div>' +
+                           '<div class="progress-cover"></div>' +
+                           '<div class="progress-text">' +
+                              '<span class="progress-num">' + percent +'</span>' +
+                              '<span class="progress-percent">%</span>' +
+                           '</div>');
 
             var x = $target.find('.progress-cover').height(); // 触发 Layout
             // http://stackoverflow.com/questions/12088819/css-transitions-on-new-elements
@@ -51,7 +61,7 @@
             });
 
             if (percent > 50) {
-                var animation = 'toggle ' + (duration * 50 / percent) + 'ms'
+                var animation = 'toggle ' + (duration * 50 / percent) + 'ms';
                 $target.find('.progress-right').css({
                     'opacity': 1,
                     'animation': animation,
