@@ -1,7 +1,11 @@
 /**
  * Created by alice on 2016/8/29.
  */
+$(window).on('load',function () {
+    $(".progress-ring").loadingRing();
 
+
+});
 (function ($) {
     $.fn.loadingRing = function () {
         var defaultOpt = {
