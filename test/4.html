@@ -2,44 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>3D旋转变形方法的使用示例</title>
+    <title>3D缩放变形方法的使用示例</title>
     <style>
         div{
             width: 300px;
             height: 100px;
             background-color: yellow;
             text-align: center;
+            transform: rotateY(45deg);
         }
     </style>
 
 </head>
 <body>
 <div id="div">示例文字</div>
-<input type="button" value="绕X轴旋转"/>
-<input type="button" value="绕Y轴旋转"/>
-<input type="button" value="绕Z轴旋转"/>
+<input type="button" value="绕X轴方向放大"/>
+<input type="button" value="绕Y轴方向放大">
+<input type="button" value="绕Z轴方向放大">
 <script>
-    var n,rotXINT,rotYINT,rotZINT;
+    var n,scXINT,scYINT,scZINT;
     var div=document.getElementById('div');
     var aIn=document.getElementsByTagName('input');
 
-
-
-
-    aIn[0].onclick=function rotateX() {
-        n=0;
-        clearInterval(rotXINT);
-        rotXINT=setInterval('startXRotate()',10);
-    };
-
-    function startXRotate() {
-        n=n+1;
-        div.style.transform='rotateX('+n+'deg)';
-        if (n==180){
-            clearInterval(rotXINT);
+    function sc(scale) {
+        n=1;
+        clearInterval(scint);
+        scint=setInterval(function (){
+        n=n+0.1;
+        div.style.transform='scale('+n+')';
+        if (n>=2){
+            clearInterval(scint);
             n=0;
         }
+    },10);
+
     }
+    aIn[0].onclick=function () {
+        sc(scaleX);
+    };
+
+/*
+    aIn[0].onclick=function scaleX() {
+        n=1;
+        clearInterval(scXINT);
+        scXINT=setInterval('startXScale()',10);
+    };
+
+    function startXScale() {
+        n=n+0.1;
+        div.style.transform='scaleX('+n+')';
+        if (n>=2){
+            clearInterval(scXINT);
+            n=0;
+        }
+    }*/
 
     aIn[1].onclick=function rotateY() {
         n=0;
