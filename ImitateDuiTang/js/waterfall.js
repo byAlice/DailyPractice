@@ -24,6 +24,7 @@ function waterfall(parent,child) {
     /*console.log($(window).width());*/
     var cols=Math.floor(($(window).width()-200)/w);  //一行能容纳的盒子个数
     if($(window).width()<500){
+        w=111;
         cols=Math.floor($(window).width()/w);
     }
     $('#recommend').css({
