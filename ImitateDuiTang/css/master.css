@@ -646,6 +646,7 @@ h2 span:nth-child(2){
 #recommend{
     width: 956px;;
     margin: 40px auto;
+    padding: 0;
     position: relative;
     font-size: 14px;
     /*margin: 40px 150px;*/
