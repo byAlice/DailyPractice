@@ -655,6 +655,7 @@ h2 span:nth-child(2){
 .recommend-box{
     float: left;
     /*用padding而不用margin，margin在这里容易出bug*/
+    box-sizing: border-box;
     padding:0 24px 40px 0;
     background: #F1F2F3;
     overflow: hidden;
