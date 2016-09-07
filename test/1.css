@@ -1,6 +1,0 @@
-div {
-    width: 500px;
-    height: 500px;
-    border-radius: 100px;
-    background: radial-gradient(circle 150px at left top,orange 0%,red 25%,yellow 50%,green 75%,black);
-}
