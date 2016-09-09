@@ -115,3 +115,25 @@
 
 *   table：[表格](http://byalice.github.io/DailyPractice/table/1.html),隔行换色，移入高亮，移出恢复，以及添加、删除行、搜索、
 [排序](http://byalice.github.io/DailyPractice/table/2.html)
+
+*   test:一些测试代码
+
+	1 [radial-gradient](http://byalice.github.io/DailyPractice/test/1.html)
+	
+	2 [先旋转后在移动，移动方向也会随之旋转](http://byalice.github.io/DailyPractice/test/2.html)
+		
+	3 [3D旋转变形方法的使用示例](http://byalice.github.io/DailyPractice/test/3.html)
+	
+	4 [3D缩放变形方法的使用示例](http://byalice.github.io/DailyPractice/test/4.html)
+	
+	5 [3D移动变形方法的使用示例](http://byalice.github.io/DailyPractice/test/5.html)
+	
+	6 [Bootstrap去点列表](http://byalice.github.io/DailyPractice/test/6.html)
+	
+	7 [Bootstrap添加代码/代码块/按键](http://byalice.github.io/DailyPractice/test/7.html)
+	
+	8 [Bootstrap基础表单](http://byalice.github.io/DailyPractice/test/8.html)
+	
+	9 [Bootstrap表单控件——下拉选择框select元素](http://byalice.github.io/DailyPractice/test/9.html)
+
+
