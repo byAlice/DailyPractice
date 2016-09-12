@@ -118,7 +118,7 @@
 
 *   test:一些测试代码
 
-	1 [radial-gradient](http://byalice.github.io/DailyPractice/test/1.html)
+	1 [CSS3 radial-gradient](http://byalice.github.io/DailyPractice/test/1.html)
 	
 	2 [先旋转后在移动，移动方向也会随之旋转](http://byalice.github.io/DailyPractice/test/2.html)
 		
@@ -134,6 +134,6 @@
 	
 	8 [Bootstrap基础表单](http://byalice.github.io/DailyPractice/test/8.html)
 	
-	9 [Bootstrap表单控件——下拉选择框select元素](http://byalice.github.io/DailyPractice/test/9.html)
+	9 [Bootstrap表单控件—下拉选择框select元素](http://byalice.github.io/DailyPractice/test/9.html)
 
 
