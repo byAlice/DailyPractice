@@ -136,6 +136,8 @@
 	
 	9 [Bootstrap表单控件—下拉选择框select元素](http://byalice.github.io/DailyPractice/test/9.html)
 	
-	9 [表单控件—表单控件大小](http://byalice.github.io/DailyPractice/test/10.html)
+	10 [表单控件—表单控件大小](http://byalice.github.io/DailyPractice/test/10.html)
+	
+	11 [表单控件状态—焦点状态](http://byalice.github.io/DailyPractice/test/11.html)
 
 
