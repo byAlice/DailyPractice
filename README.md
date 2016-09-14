@@ -143,5 +143,7 @@
 	12 [表单控件状态—禁用状态](http://byalice.github.io/DailyPractice/test/12.html)
 	
 	13 [按钮定制风格](http://byalice.github.io/DailyPractice/test/13.html)
+	
+	14 [按钮定制](http://byalice.github.io/DailyPractice/test/14.html)
 
 
