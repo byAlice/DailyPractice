@@ -139,5 +139,9 @@
 	10 [表单控件—表单控件大小](http://byalice.github.io/DailyPractice/test/10.html)
 	
 	11 [表单控件状态—焦点状态](http://byalice.github.io/DailyPractice/test/11.html)
+	
+	12 [表单控件状态—禁用状态](http://byalice.github.io/DailyPractice/test/12.html)
+	
+	13 [按钮定制风格](http://byalice.github.io/DailyPractice/test/13.html)
 
 
