@@ -145,5 +145,9 @@
 	13 [按钮定制风格](http://byalice.github.io/DailyPractice/test/13.html)
 	
 	14 [按钮定制](http://byalice.github.io/DailyPractice/test/14.html)
+	
+	15 [按钮大小](http://byalice.github.io/DailyPractice/test/15.html)
+	
+	16 [图像](http://byalice.github.io/DailyPractice/test/16.html)
 
 
