@@ -151,5 +151,15 @@
 	16 [图像](http://byalice.github.io/DailyPractice/test/16.html)
 	
 	17 [图标](http://byalice.github.io/DailyPractice/test/17.html)
+	
+	18 [栅栏基本用法](http://byalice.github.io/DailyPractice/test/18.html)
+	
+	19 [列偏移](http://byalice.github.io/DailyPractice/test/19.html)
+	
+	20 [列排序](http://byalice.github.io/DailyPractice/test/20.html)
+	
+	21 [列的嵌套](http://byalice.github.io/DailyPractice/test/21.html)
+	
+	22 [下拉菜单](http://byalice.github.io/DailyPractice/test/22.html)
 
 
