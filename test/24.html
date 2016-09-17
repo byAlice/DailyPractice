@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>下拉菜单对齐方式</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <style>
+        body{
+            margin:50px;
+            padding:50px;
+        }
+        .dropdown{
+            float: left;
+        }
+        h4{
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+<h4>使用pull-right类使下拉菜单与父容器右边对齐</h4>
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+        下拉菜单
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+    </ul>
+</div>
+<br />
+<br />
+<h4>使用dropdown-menu-right类使下拉菜单与父容器右边对齐</h4>
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+        下拉菜单
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+    </ul>
+</div>
+<br />
+<br />
+<h4>下拉菜单与父容器左边对齐</h4>
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+        下拉菜单
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-left" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">下拉菜单项</a></li>
+    </ul>
+</div>
+<br/>
+<br/>
+<br/>
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+        食物
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation" class="dropdown-header">水果</li>
+
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">苹果</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">香蕉</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">梨</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">桃</a></li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation" class="dropdown-header">蔬菜</li>
+
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">芹菜</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">萝卜</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">茄子</a></li>
+    </ul>
+</div>
+<!--实现右对齐方法：
+
+Bootstrap框架中下拉菜单默认是左对齐，如果你想让下拉菜单相对于父容器右对齐时，可以在“dropdown-menu”上添加一个“pull-right”或者“dropdown-menu-right”类名
+
+下拉菜单与父容器左边对齐:
+
+与此同时，还有一个类名刚好与“dropdown-menu-right”相反的类名“dropdown-menu-left”，其效果就是让下拉菜单与父容器左边对齐，其实就是默认效果。
+
+
+-->
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

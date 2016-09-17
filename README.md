@@ -161,5 +161,23 @@
 	21 [列的嵌套](http://byalice.github.io/DailyPractice/test/21.html)
 	
 	22 [下拉菜单](http://byalice.github.io/DailyPractice/test/22.html)
+	
+	23 [下拉菜单标题](http://byalice.github.io/DailyPractice/test/23.html)
+	
+	24 [下拉菜单对齐方式](http://byalice.github.io/DailyPractice/test/24.html)
+	
+	25 [下拉菜单项状态](http://byalice.github.io/DailyPractice/test/25.html)
+	
+	26 [按钮组](http://byalice.github.io/DailyPractice/test/26.html)
+	
+	27 [嵌套(水平/垂直)分组以及等分按钮](http://byalice.github.io/DailyPractice/test/27.html)
+	
+	28 [组合式下拉菜单/上拉菜单](http://byalice.github.io/DailyPractice/test/28.html)
+	
+	29 [导航(基础样式)](http://byalice.github.io/DailyPractice/test/29.html)
+	
+	30 [面包屑式导航](http://byalice.github.io/DailyPractice/test/30.html)
+	
+	31 [导航条](http://byalice.github.io/DailyPractice/test/31.html)
 
 
