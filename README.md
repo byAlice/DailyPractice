@@ -179,5 +179,11 @@
 	30 [面包屑式导航](http://byalice.github.io/DailyPractice/test/30.html)
 	
 	31 [导航条](http://byalice.github.io/DailyPractice/test/31.html)
+	
+	32 [导航条中的按钮、文本和链接](http://byalice.github.io/DailyPractice/test/32.html)
+	
+	33 [固定导航条](http://byalice.github.io/DailyPractice/test/33.html)
+	
+	34 [响应式导航条](http://byalice.github.io/DailyPractice/test/34.html)
 
 
