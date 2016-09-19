@@ -116,7 +116,7 @@
 *   table：[表格](http://byalice.github.io/DailyPractice/table/1.html),隔行换色，移入高亮，移出恢复，以及添加、删除行、搜索、
 [排序](http://byalice.github.io/DailyPractice/table/2.html)
 
-*   test:一些测试代码
+*   test:一些测试代码[其中1-5为css3部分属性测试，6-为bootstrap代码效果测试]
 
 	1 [CSS3 radial-gradient](http://byalice.github.io/DailyPractice/test/1.html)
 	
@@ -185,5 +185,25 @@
 	33 [固定导航条](http://byalice.github.io/DailyPractice/test/33.html)
 	
 	34 [响应式导航条](http://byalice.github.io/DailyPractice/test/34.html)
+	
+	35 [基本导航条](http://byalice.github.io/DailyPractice/test/35.html)
+	
+	36 [分页导航](http://byalice.github.io/DailyPractice/test/36.html)
+	
+	37 [分页导航（翻页分页导航）](http://byalice.github.io/DailyPractice/test/37.html)
+	
+	38 [标签、徽章](http://byalice.github.io/DailyPractice/test/38.html)
+	
+	39 [缩略图](http://byalice.github.io/DailyPractice/test/39.html)
+	
+	40 [警示框](http://byalice.github.io/DailyPractice/test/40.html)
+	
+	41 [进度条](http://byalice.github.io/DailyPractice/test/41.html)
+	
+	42 [媒体对象](http://byalice.github.io/DailyPractice/test/42.html)
+	
+	43 [列表组](http://byalice.github.io/DailyPractice/test/43.html)
+	
+	44 [面板](http://byalice.github.io/DailyPractice/test/44.html)
 
 
