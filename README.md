@@ -205,5 +205,13 @@
 	43 [列表组](http://byalice.github.io/DailyPractice/test/43.html)
 	
 	44 [面板](http://byalice.github.io/DailyPractice/test/44.html)
+	
+	45 [导入JavaScript插件—触发状态提示框](http://byalice.github.io/DailyPractice/test/45.html)
+	
+	46 [通过data-target触发状态提示框](http://byalice.github.io/DailyPractice/test/46.html)
+	
+	47 [大/小模态弹出框](http://byalice.github.io/DailyPractice/test/47.html)
+	
+	48 [模态弹出窗的使用](http://byalice.github.io/DailyPractice/test/48.html)
 
 
